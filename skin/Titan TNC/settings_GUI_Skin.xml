@@ -304,6 +304,18 @@
 	 <animation effect="fade" time="150">WindowClose</animation>
 	</control>
         
+	<control Style="SettingsButtonMedium">
+		<description>Skin settings</description>
+		<type>button</type>
+		<id>51</id>
+		<posX>1214</posX>
+		<posY>906</posY>
+		<label>#(L(5908)) #(L(5))</label>
+		<hyperlink>165100</hyperlink>
+	 <animation effect="fade" time="150">WindowOpen</animation>
+	 <animation effect="fade" time="150">WindowClose</animation>
+	</control>
+				
 	<control>
 		<description>Skin Preview</description>
 		<type>image</type>

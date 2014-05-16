@@ -15,7 +15,6 @@
 <define>#useRandomScoreCenterUserFanart:Yes</define> 
 <define>#useRandomTVUserFanart:Yes</define>
 <define>#useRandomTVSeriesFanart:Yes</define>
-
 <define>#header.label:Home</define>
 <rememberLastFocusedControl>yes</rememberLastFocusedControl>
 
@@ -168,7 +167,7 @@
       <animation effect="zoom" start="102,102" end="100,100" time="150">unfocus</animation>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
-			<visible allowhiddenfocus="true">![control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)|Control.IsVisible(100)|Control.IsVisible(2000)|control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700)]</visible>   
+			<visible allowhiddenfocus="true">![control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)|control.hasfocus(99999)|Control.IsVisible(100)|Control.IsVisible(2000)|control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700)]</visible>   
     </control>
     <control>
       <description>BasicHome Radio</description>
@@ -196,7 +195,7 @@
       <animation effect="zoom" start="102,102" end="100,100" time="150">unfocus</animation>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
-			<visible allowhiddenfocus="true">![control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)|Control.IsVisible(3000)|control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700)]</visible>  
+			<visible allowhiddenfocus="true">![control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)|control.hasfocus(99999)|Control.IsVisible(3000)|control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700)]</visible>  
     </control>
       
     <control>
@@ -225,7 +224,7 @@
       <animation effect="zoom" start="102,102" end="100,100" time="150">unfocus</animation>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
-			<visible allowhiddenfocus="true">![control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)|Control.IsVisible(100)|Control.IsVisible(2000)|control.hasfocus(1100)|control.hasfocus(1101)|control.hasfocus(1102)|control.hasfocus(1103)|control.hasfocus(1104)|control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700)]</visible>  
+			<visible allowhiddenfocus="true">![control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)|control.hasfocus(99999)|Control.IsVisible(100)|Control.IsVisible(2000)|control.hasfocus(1100)|control.hasfocus(1101)|control.hasfocus(1102)|control.hasfocus(1103)|control.hasfocus(1104)|control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700)]</visible>  
     </control> 
 
     <control>
@@ -254,7 +253,7 @@
       <animation effect="zoom" start="102,102" end="100,100" time="150">unfocus</animation>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
-			<visible allowhiddenfocus="true">![control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)|Control.IsVisible(3000)|control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700)]</visible>       
+			<visible allowhiddenfocus="true">![control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)|control.hasfocus(99999)|Control.IsVisible(3000)|control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700)]</visible>       
     </control>
       
     <include condition="#(eq(#skin.basichome.moviePlugin,'MyVideo'))">include.BasicHomeButton.myvideo.xml</include>
@@ -480,7 +479,46 @@
       <texture>BasicHomeSubBG.png</texture>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
+    </control>		
+<!-- Skin Update -->
+
+
+	<control>
+    	<description>Update Indicator</description>
+      <type>button</type>
+      <id>99999</id>
+			<label>-</label>
+			<textureFocus>update_notification_focus.png</textureFocus>
+			<textureNoFocus>update_notification_nofocus.png</textureNoFocus>
+			<posX>944</posX>
+			<posY>998</posY>
+			<width>34</width>
+			<height>34</height>
+			<hyperlink>165101</hyperlink>
+			<onright>99999</onright>
+			<onleft>99999</onleft>
+			<onup>5</onup>
+			<ondown>12</ondown>
+			<visible allowhiddenfocus="true">string.equals(#Titan.ShowUpdateInd,true)</visible>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
     </control>
+	
+		<control>
+			<type>label</type>
+			<id>4201</id>
+			<posX>920</posX>
+			<posY>998</posY>
+			<width>500</width>
+			<label>#Titan.SkinUpdateNF</label>
+			<textcolor>ff000000</textcolor>
+			<font>TitanLight12</font>
+			<align>right</align>
+			<visible>string.equals(#Titan.ShowUpdateInd,true)</visible>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+			<animation effect="fade" start="0" end="100" time="600">visible</animation>
+   </control>
 
     <!-- RSS -->
     
@@ -495,7 +533,7 @@
       <font>font11</font>
       <textcolor>000000</textcolor>
       <label>#infoservice.feed.titles</label>
-      <visible>plugin.isenabled(InfoService)+string.equals(#infoservice.feed.enabled, true)</visible>
+      <visible>plugin.isenabled(InfoService)+string.equals(#infoservice.feed.enabled, true)+!string.equals(#Titan.ShowUpdateInd,true)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
