@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <window>
-  <controls>    
-  	
+<controls>    
 	<!-- 			:: DVD COVER (SEASON/EPISODE) :: -->
-    
 	<!--            :: LISTVIEW ::            -->
-	
 	<control>
 		<description>Poster shadow</description>
 		<type>image</type>
@@ -18,8 +15,7 @@
 		<visible>[control.isvisible(1237)|control.isvisible(1238)]+[facadeview.list|facadeview.largeicons]</visible>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
-	</control>
-	
+	</control>	
 	<control>
 		<description>Cover Art</description>
 		<type>image</type>
@@ -33,7 +29,6 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
-
 	<control>
 		<description>Cover Art</description>
 		<type>image</type>
@@ -47,7 +42,6 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
-	
   <control>
     <description>Unwatched Icon</description>
     <type>image</type>
@@ -61,9 +55,7 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
   </control>
-	
 	<!-- *****************************************  SERIES BANNER ( LIST LAYOUT) ***************************************************************** -->
-    
 	<control>	
     <description>Thumb/Cover background</description>
     <type>image</type>
@@ -74,7 +66,6 @@
     <height>86</height>
     <visible>Control.IsVisible(1237)+facadeview.list+!Control.IsVisible(1242)</visible>
   </control>
-    
   <control>
     <type>image</type>
     <description>Series Banner ( series banner background )</description>
@@ -86,10 +77,7 @@
     <texture>#TVSeries.SeriesBanner</texture>
     <visible>Control.IsVisible(1237)+facadeview.list+!Control.IsVisible(1242)</visible>
   </control>	
-		  
 	<!-- 			:: SERIES/SEASON INFO LABELS ::		-->
-    
-        
   <control Style="smallTitle">
 		<type>fadelabel</type>
 		<description>Title Series View</description>
@@ -101,7 +89,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
   </control>
-    
   <control Style="smallTitle">
 		<type>fadelabel</type>
 		<description>Title Season View</description>
@@ -113,9 +100,7 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
   </control>
-    
 	<!-- 			:: LISTVIEW / WIDE BANNER ::		-->
-	
   <control>
 		<type>textboxscrollup</type>
 		<description>Description (grouplist)</description>
@@ -131,7 +116,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
   </control>
-	
   <control>
 		<type>image</type>
 		<id>1</id>
@@ -145,7 +129,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
   </control>
-	    
 	<control Style="InfoLabel">
 		<description>FirstAired Label (Series)</description>
 		<type>fadelabel</type>
@@ -157,7 +140,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-
 	<control Style="InfoValueSmall">
 		<description>FirstAired Value (Series)</description>
 		<type>label</type>
@@ -169,8 +151,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-	
-			
 	<control>
 		<description>Rating Value (Episode)</description>
 		<type>fadelabel</type>
@@ -185,7 +165,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-
 	<control Style="InfoLabel">
 		<description>Episodes Label</description>
 		<type>label</type>
@@ -197,11 +176,10 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-			
 	<control Style="InfoValueSmall">
 		<description>Episodes</description>
 		<type>fadelabel</type>
-		<label>#TVSeries.Series.EpisodeCount</label>
+		<label>#TVSeries.Series.EpisodeCount (#TVSeries.Series.InfoPanelLine2Key #(L(1267)))</label>
 		<id>0</id>
 		<posX>798</posX>
 		<posY>419</posY>
@@ -209,7 +187,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-	
 	<control Style="InfoLabel">
 		<description>Actor Label (Series)</description>
 		<type>label</type>
@@ -221,7 +198,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-			
 	<control Style="InfoValueSmall">
 		<description>Actors (Series)</description>
 		<type>fadelabel</type>
@@ -233,7 +209,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-	
 	<control Style="InfoLabel">
 		<description>Genre Label</description>
 		<type>label</type>
@@ -245,7 +220,6 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
   </control>
-	
 	<control Style="InfoValueSmall">
 		<description>Genre Value</description>
 		<type>fadelabel</type>
@@ -257,7 +231,6 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
   </control>
-    
 	<control>
 		<type>textboxscrollup</type>
 		<description>Summary (list)</description>
@@ -277,9 +250,7 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>	
-    
 	<!-- 			:: FILMSTRIP/COVERFLOW ::		-->
-    
   <control>
 		<type>image</type>
 		<id>1</id>
@@ -293,7 +264,6 @@
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
   </control>
-    
 	<control>
 		<description>Rating Value</description>
 		<type>label</type>
@@ -307,7 +277,6 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>				
 	</control>
-    
 	<control>
 		<description>Year / Runtime / Genre</description>
 		<type>label</type>
@@ -322,9 +291,7 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-    
 	<!-- 			:: EPISODE INFO LABELS ::		-->
-    
 	<control>
 		<description>Logo frame</description>
 		<type>image</type>
@@ -338,7 +305,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-    
 	<control>
 		<type>image</type>
 		<description>Logos</description>
@@ -353,8 +319,7 @@
 		<visible>facadeview.list+Control.IsVisible(1239)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
-	</control>	
-	
+	</control>
 	<control>
 		<description>certification logo</description>
 		<type>image</type>
@@ -370,7 +335,6 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
-
   <control Style="smallTitle">
 		<type>fadelabel</type>
 		<id>0</id>
@@ -380,8 +344,7 @@
 		<visible>[Control.IsVisible(1239)+facadeview.list]</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
-    </control>
-      
+  </control>
 	<control Style="InfoLabel">
 		<description>FirstAired Label (Episode)</description>
 		<type>fadelabel</type>
@@ -393,7 +356,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-			
 	<control Style="InfoValueSmall">
 		<description>FirstAired Value (Episode)</description>
 		<type>label</type>
@@ -405,7 +367,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-
 	<control Style="InfoLabel">
 		<description>Runtime Label</description>
 		<type>label</type>
@@ -417,7 +378,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-			
 	<control Style="InfoValueSmall">
 		<description>Runtime</description>
 		<type>fadelabel</type>
@@ -429,7 +389,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-			
 	<control>
 		<description>Rating Value (Episode)</description>
 		<type>fadelabel</type>
@@ -444,8 +403,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-	
-	
 	<control Style="InfoLabel">
 		<description>Season Label (Episode)</description>
 		<type>label</type>
@@ -457,7 +414,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-			
 	<control Style="InfoValueSmall">
 		<description>Season (Episode)</description>
 		<type>fadelabel</type>
@@ -469,7 +425,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-    
 	<control Style="InfoLabel">
 		<description>Episode Label</description>
 		<type>label</type>
@@ -481,11 +436,10 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-			
 	<control Style="InfoValueSmall">
 		<description>Episode</description>
 		<type>fadelabel</type>
-		<label>#selectedindex (#itemcount)</label>
+		<label>#TVSeries.Episode.EpisodeIndex (#TVSeries.Season.EpisodeCount)</label>
 		<id>0</id>
 		<posX>798</posX>
 		<posY>483</posY>
@@ -493,7 +447,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>        
-	
 	<control>
 		<type>textboxscrollup</type>
 		<description>Summary (list)</description>
@@ -513,7 +466,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-	
   <control>
 		<type>image</type>
 		<id>1</id>
@@ -527,7 +479,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
   </control>
-    
 	<control>
 		<description>Cover Art</description>
 		<type>image</type>
@@ -541,7 +492,6 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
-    
 	<control>
 		<description>Poster Mask</description>
 		<type>image</type>
@@ -555,7 +505,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-    
 	<control>
 		<description>Big Episode Thumb</description>
 		<type>image</type>
@@ -569,7 +518,6 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-    
 	<control>
 		<description>Episode Thumb Shadow</description>
 		<type>image</type>
@@ -583,5 +531,5 @@
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-  </controls>
+</controls>
 </window>
