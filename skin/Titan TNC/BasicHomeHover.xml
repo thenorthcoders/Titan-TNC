@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+<controls>
+  <control>
+    <description>background image button 1</description>
+    <type>image</type>
+    <id>1100</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>Control.HasFocus(2)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>BasicHomeBackgroundImages\#menuItemHover0</texture>
+    <shouldCache>true</shouldCache>
+  </control>
+  <control>
+    <description>background button 2</description>
+    <type>image</type>
+    <id>1101</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>Control.HasFocus(3)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>BasicHomeBackgroundImages\#menuItemHover1</texture>
+    <shouldCache>true</shouldCache>
+  </control>
+   <control>
+    <description>background button 3</description>
+    <type>image</type>
+    <id>1101</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>Control.HasFocus(4)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>BasicHomeBackgroundImages\#menuItemHover2</texture>
+    <shouldCache>true</shouldCache>
+  </control>
+  <control>
+    <description>background button 4</description>
+    <type>image</type>
+    <id>1101</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>Control.HasFocus(5)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>BasicHomeBackgroundImages\#menuItemHover3</texture>
+    <shouldCache>true</shouldCache>
+  </control>
+  <control>
+    <description>background image button 5</description>
+    <type>image</type>
+    <id>1100</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>Control.HasFocus(6)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>BasicHomeBackgroundImages\#menuItemHover4</texture>
+    <shouldCache>true</shouldCache>
+  </control>
+  <control>
+    <description>background button 6</description>
+    <type>image</type>
+    <id>1101</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>Control.HasFocus(7)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>BasicHomeBackgroundImages\#menuItemHover5</texture>
+    <shouldCache>true</shouldCache>
+  </control>
+   <control>
+    <description>background button 7</description>
+    <type>image</type>
+    <id>1101</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>Control.HasFocus(8)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>BasicHomeBackgroundImages\#menuItemHover6</texture>
+    <shouldCache>true</shouldCache>
+  </control>
+  <control>
+    <description>background button 8</description>
+    <type>image</type>
+    <id>1101</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>Control.HasFocus(9)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>BasicHomeBackgroundImages\#menuItemHover7</texture>
+    <shouldCache>true</shouldCache>
+  </control>
+</controls>
+</window>

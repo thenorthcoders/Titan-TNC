@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+<!-- :: Mainmenu :: -->
+
+<define property="true" evaluateNow="true">#menuItemName0:#(iif(neq(string.format('{0}',#menuItemName0),''),#menuItemName0,''))</define>
+<define property="true" evaluateNow="true">#menuItemName1:#(iif(neq(string.format('{0}',#menuItemName1),''),#menuItemName1,''))</define>
+<define property="true" evaluateNow="true">#menuItemName2:#(iif(neq(string.format('{0}',#menuItemName2),''),#menuItemName2,''))</define>
+<define property="true" evaluateNow="true">#menuItemName3:#(iif(neq(string.format('{0}',#menuItemName3),''),#menuItemName3,''))</define>
+<define property="true" evaluateNow="true">#menuItemName4:#(iif(neq(string.format('{0}',#menuItemName4),''),#menuItemName4,''))</define>
+<define property="true" evaluateNow="true">#menuItemName5:#(iif(neq(string.format('{0}',#menuItemName5),''),#menuItemName5,''))</define>
+<define property="true" evaluateNow="true">#menuItemName6:#(iif(neq(string.format('{0}',#menuItemName6),''),#menuItemName6,''))</define>
+<define property="true" evaluateNow="true">#menuItemName7:#(iif(neq(string.format('{0}',#menuItemName7),''),#menuItemName7,''))</define>
+<define property="true" evaluateNow="true">#menuItemName8:#(iif(neq(string.format('{0}',#menuItemName8),''),#menuItemName8,''))</define>
+<define property="true" evaluateNow="true">#menuItemName9:#(iif(neq(string.format('{0}',#menuItemName9),''),#menuItemName9,''))</define>
+<define property="true" evaluateNow="true">#menuItemName10:#(iif(neq(string.format('{0}',#menuItemName10),''),#menuItemName10,''))</define>
+<define property="true" evaluateNow="true">#menuItemName11:#(iif(neq(string.format('{0}',#menuItemName11),''),#menuItemName11,''))</define>
+<define property="true" evaluateNow="true">#menuItemName12:#(iif(neq(string.format('{0}',#menuItemName12),''),#menuItemName12,''))</define>
+<define property="true" evaluateNow="true">#menuItemName13:#(iif(neq(string.format('{0}',#menuItemName13),''),#menuItemName13,''))</define>
+<define property="true" evaluateNow="true">#menuItemName14:#(iif(neq(string.format('{0}',#menuItemName14),''),#menuItemName14,''))</define>
+<define property="true" evaluateNow="true">#menuItemName15:#(iif(neq(string.format('{0}',#menuItemName15),''),#menuItemName15,''))</define>
+<define property="true" evaluateNow="true">#menuItemName16:#(iif(neq(string.format('{0}',#menuItemName16),''),#menuItemName16,''))</define>
+<define property="true" evaluateNow="true">#menuItemTileImage0:#(iif(neq(string.format('{0}',#menuItemTileImage0),''),#menuItemTileImage0,'dummy'))</define>
+<define property="true" evaluateNow="true">#menuItemTileImage1:#(iif(neq(string.format('{0}',#menuItemTileImage1),''),#menuItemTileImage1,'dummy'))</define>
+<define property="true" evaluateNow="true">#menuItemTileImage2:#(iif(neq(string.format('{0}',#menuItemTileImage2),''),#menuItemTileImage2,'dummy'))</define>
+<define property="true" evaluateNow="true">#menuItemTileImage3:#(iif(neq(string.format('{0}',#menuItemTileImage3),''),#menuItemTileImage3,'dummy'))</define>
+<define property="true" evaluateNow="true">#menuItemTileImage4:#(iif(neq(string.format('{0}',#menuItemTileImage4),''),#menuItemTileImage4,'dummy'))</define>
+<define property="true" evaluateNow="true">#menuItemTileImage5:#(iif(neq(string.format('{0}',#menuItemTileImage5),''),#menuItemTileImage5,'dummy'))</define>
+<define property="true" evaluateNow="true">#menuItemTileImage6:#(iif(neq(string.format('{0}',#menuItemTileImage6),''),#menuItemTileImage6,'dummy'))</define>
+<define property="true" evaluateNow="true">#menuItemTileImage7:#(iif(neq(string.format('{0}',#menuItemTileImage7),''),#menuItemTileImage7,'dummy'))</define>
+<define property="true" evaluateNow="true">#menuItemHover0:#(iif(neq(string.format('{0}',#menuItemHover0),''),#menuItemHover0,''))</define>
+<define property="true" evaluateNow="true">#menuItemHover1:#(iif(neq(string.format('{0}',#menuItemHover1),''),#menuItemHover1,''))</define>
+<define property="true" evaluateNow="true">#menuItemHover2:#(iif(neq(string.format('{0}',#menuItemHover2),''),#menuItemHover2,''))</define>
+<define property="true" evaluateNow="true">#menuItemHover3:#(iif(neq(string.format('{0}',#menuItemHover3),''),#menuItemHover3,''))</define>
+<define property="true" evaluateNow="true">#menuItemHover4:#(iif(neq(string.format('{0}',#menuItemHover4),''),#menuItemHover4,''))</define>
+<define property="true" evaluateNow="true">#menuItemHover5:#(iif(neq(string.format('{0}',#menuItemHover5),''),#menuItemHover5,''))</define>
+<define property="true" evaluateNow="true">#menuItemHover6:#(iif(neq(string.format('{0}',#menuItemHover6),''),#menuItemHover6,''))</define>
+<define property="true" evaluateNow="true">#menuItemHover7:#(iif(neq(string.format('{0}',#menuItemHover7),''),#menuItemHover7,''))</define>
+
+
+<!-- :: Submenu :: -->
+
+<define property="true" evaluateNow="true">#submenu0.ItemName0:#(iif(neq(string.format('{0}',#submenu0.ItemName0),''),#submenu0.ItemName0,''))</define>
+<define property="true" evaluateNow="true">#submenu0.ItemName1:#(iif(neq(string.format('{0}',#submenu0.ItemName1),''),#submenu0.ItemName1,''))</define>
+<define property="true" evaluateNow="true">#submenu1.ItemName0:#(iif(neq(string.format('{0}',#submenu1.ItemName0),''),#submenu1.ItemName0,''))</define>
+<define property="true" evaluateNow="true">#submenu1.ItemName1:#(iif(neq(string.format('{0}',#submenu1.ItemName1),''),#submenu1.ItemName1,''))</define>
+
+<!-- :: LatestMedia :: -->
+<define property="true" evaluateNow="true">#menuItemRecentMedia0:#(iif(neq(string.format('{0}',#menuItemRecentMedia0),''),#menuItemRecentMedia0,'none'))</define>
+<define property="true" evaluateNow="true">#menuItemRecentMedia1:#(iif(neq(string.format('{0}',#menuItemRecentMedia1),''),#menuItemRecentMedia1,'none'))</define>
+<define property="true" evaluateNow="true">#menuItemRecentMedia2:#(iif(neq(string.format('{0}',#menuItemRecentMedia2),''),#menuItemRecentMedia2,'none'))</define>
+<define property="true" evaluateNow="true">#menuItemRecentMedia3:#(iif(neq(string.format('{0}',#menuItemRecentMedia3),''),#menuItemRecentMedia3,'none'))</define>
+<define property="true" evaluateNow="true">#menuItemRecentMedia4:#(iif(neq(string.format('{0}',#menuItemRecentMedia4),''),#menuItemRecentMedia4,'none'))</define>
+<define property="true" evaluateNow="true">#menuItemRecentMedia5:#(iif(neq(string.format('{0}',#menuItemRecentMedia5),''),#menuItemRecentMedia5,'none'))</define>
+<define property="true" evaluateNow="true">#menuItemRecentMedia6:#(iif(neq(string.format('{0}',#menuItemRecentMedia6),''),#menuItemRecentMedia6,'none'))</define>
+<define property="true" evaluateNow="true">#menuItemRecentMedia7:#(iif(neq(string.format('{0}',#menuItemRecentMedia7),''),#menuItemRecentMedia7,'none'))</define>
+</window>

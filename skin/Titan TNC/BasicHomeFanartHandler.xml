@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+<controls>
+  <control>
+    <description>DUMMY CONTROL FOR RANDOM FANART 1 VISIBILITY CONDITION</description>
+    <type>label</type>
+    <id>91919297</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1</width>
+  </control>
+  <control>
+    <description>DUMMY CONTROL FOR RANDOM FANART 2 VISIBILITY CONDITION</description>
+    <type>label</type>
+    <id>91919298</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1</width>
+  </control>
+	<!--            :: Series ::            -->
+	<control>
+    <description>FanartHandler Series 1</description>
+    <type>image</type>
+    <id>0</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,series)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+    <texture>#fanarthandler.tvseries.backdrop1.any</texture>
+	</control>
+	<control>
+		<description>FanartHandler Series 2</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,series)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.tvseries.backdrop2.any</texture>
+	</control> 
+	<!--            :: Movies ::            -->
+	<control>
+		<description>FanartHandler Movies 1</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,movies)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.movingpicture.backdrop1.any</texture>
+	</control>
+	<control>
+		<description>FanartHandler Movies 2</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,movies)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.movingpicture.backdrop2.any</texture>
+	</control> 
+	<!--            :: Music ::            -->
+	<control>
+		<description>FanartHandler Music 1</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,music)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.music.scraper.backdrop1.any</texture>
+	</control>
+	<control>
+		<description>FanartHandler Music 2</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,music)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.music.scraper.backdrop2.any</texture>
+	</control> 
+	<!--            :: TV ::            -->
+	<control>
+		<description>FanartHandler TV 1</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,tv)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.tv.userdef.backdrop1.any</texture>
+	</control>
+	<control>
+		<description>FanartHandler TV 2</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,tv)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.tv.userdef.backdrop2.any</texture>
+	</control> 
+	<!--            :: Pictures ::            -->
+	<control>
+    <description>FanartHandler Pictures 1</description>
+    <type>image</type>
+    <id>0</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,pictures)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+    <texture>#fanarthandler.picture.userdef.backdrop1.any</texture>
+	</control>
+	<control>
+		<description>FanartHandler Pictures 2</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,pictures)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.picture.userdef.backdrop2.any</texture>
+	</control> 
+	<!--            :: Plugins ::            -->
+	<control>
+		<description>FanartHandler Plugins 1</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>0</posX>
+		<posY>0</posY>
+		<width>1920</width>
+		<height>1080</height>
+    <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,plugins)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+		<texture>#fanarthandler.plugins.userdef.backdrop1.any</texture>
+	</control>
+	<control>
+    <description>FanartHandler Plugins 2</description>
+    <type>image</type>
+    <id>0</id>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>1920</width>
+    <height>1080</height>
+    <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,plugins)</visible>
+    <animation effect="fade" time="300">visiblechange</animation>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="0">WindowClose</animation>
+    <texture>#fanarthandler.plugins.userdef.backdrop2.any</texture>
+	</control>
+</controls>
+</window>

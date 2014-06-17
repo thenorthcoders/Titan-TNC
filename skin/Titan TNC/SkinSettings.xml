@@ -12,6 +12,7 @@
     <entry name="#skin.enable.latest.myVideo">False</entry>
     <entry name="#skin.enable.latest.MovingPictures">False</entry>
     <entry name="#skin.enable.latest.Series">False</entry>
+    <entry name="#skin.background.useHover">False</entry>
   </section>
   <section name="tvguidecolors">
     <entry name="guidecolorchannelbutton">FF122F3F</entry>
@@ -34,8 +35,40 @@
     <entry name="#skin.basichome.moviePlugin">MyVideo</entry>
     <entry name="#skin.mymusic.info">None</entry>
     <entry name="#skin.tvguide.rows"> 7</entry>
-		<entry name="#skin.layout.movingpictures.thumbview">default</entry>
-		<entry name="#skin.layout.movingpictures.details">default</entry>
-		<entry name="#skin.layout.tvseries.widebanner">default</entry>
+    <entry name="#skin.layout.movingpictures.thumbview">XL</entry>
+    <entry name="#skin.layout.movingpictures.details">default</entry>
+    <entry name="#skin.layout.tvseries.widebanner">default</entry>
+    <entry name="#skin.layout.basichome">default</entry>
+    <entry name="#skin.currentbutton">2</entry>
+    <entry name="#skin.background">blue</entry>
+    <entry name="#submenu3.ItemParameter0">132</entry>
+    <entry name="#menuItemName0">Live TV</entry>
+    <entry name="#menuItemTileImage0">tv</entry>
+    <entry name="#menuItemHyperlink0">1</entry>
+    <entry name="#menuItemHover0">tv_default.png</entry>
+    <entry name="#menuItemName1">Movies</entry>
+    <entry name="#menuItemTileImage1">movies</entry>
+    <entry name="#menuItemHyperlink1">96742</entry>
+    <entry name="#menuItemHover1">movies.png</entry>
+    <entry name="#menuItemRecentMedia1">MovingPictures</entry>
+    <entry name="#menuItemName2">Series</entry>
+    <entry name="#menuItemTileImage2">series</entry>
+    <entry name="#menuItemHyperlink2">9811</entry>
+    <entry name="#menuItemHover2">series</entry>
+    <entry name="#menuItemRecentMedia2">TVSeries</entry>
+    <entry name="#menuItemName3">Music</entry>
+    <entry name="#menuItemTileImage3">music</entry>
+    <entry name="#menuItemHyperlink3">501</entry>
+    <entry name="#menuItemHover3">music_default.png</entry>
+    <entry name="#submenu3.ItemName0">Music</entry>
+    <entry name="#submenu3.ItemHyperlink0">504</entry>
+    <entry name="#menuItemName4">Pictures</entry>
+    <entry name="#menuItemTileImage4">icons\pictures</entry>
+    <entry name="#menuItemHyperlink4">2</entry>
+    <entry name="#menuItemHover4">pictures_default.jpg</entry>
+    <entry name="#menuItemName5">Settings</entry>
+    <entry name="#menuItemTileImage5">icons\settings</entry>
+    <entry name="#menuItemHyperlink5">4</entry>
+    <entry name="#menuItemHover5">settings_default.png</entry>
   </section>
 </profile>
