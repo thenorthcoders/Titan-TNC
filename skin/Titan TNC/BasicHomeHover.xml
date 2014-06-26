@@ -9,11 +9,9 @@
     <posY>0</posY>
     <width>1920</width>
     <height>1080</height>
-    <visible>Control.HasFocus(2)</visible>
+    <visible>Control.HasFocus(2)|Control.HasFocus(501)|Control.HasFocus(502)|Control.HasFocus(503)|Control.HasFocus(504)|Control.HasFocus(505)</visible>
     <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
-		<texture>BasicHomeBackgroundImages\#menuItemHover0</texture>
+	<texture>BasicHomeBackgroundImages\#menuItemHover0</texture>
     <shouldCache>true</shouldCache>
   </control>
   <control>
@@ -24,11 +22,9 @@
     <posY>0</posY>
     <width>1920</width>
     <height>1080</height>
-    <visible>Control.HasFocus(3)</visible>
+    <visible>Control.HasFocus(3)|Control.HasFocus(601)|Control.HasFocus(602)|Control.HasFocus(603)|Control.HasFocus(604)|Control.HasFocus(605)</visible>
     <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
-		<texture>BasicHomeBackgroundImages\#menuItemHover1</texture>
+	<texture>BasicHomeBackgroundImages\#menuItemHover1</texture>
     <shouldCache>true</shouldCache>
   </control>
    <control>
@@ -39,11 +35,9 @@
     <posY>0</posY>
     <width>1920</width>
     <height>1080</height>
-    <visible>Control.HasFocus(4)</visible>
+    <visible>Control.HasFocus(4)|Control.HasFocus(701)|Control.HasFocus(702)|Control.HasFocus(703)|Control.HasFocus(704)|Control.HasFocus(705)</visible>
     <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
-		<texture>BasicHomeBackgroundImages\#menuItemHover2</texture>
+	<texture>BasicHomeBackgroundImages\#menuItemHover2</texture>
     <shouldCache>true</shouldCache>
   </control>
   <control>
@@ -54,11 +48,9 @@
     <posY>0</posY>
     <width>1920</width>
     <height>1080</height>
-    <visible>Control.HasFocus(5)</visible>
+    <visible>Control.HasFocus(5)|Control.HasFocus(801)|Control.HasFocus(802)|Control.HasFocus(803)|Control.HasFocus(804)|Control.HasFocus(805)</visible>
     <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
-		<texture>BasicHomeBackgroundImages\#menuItemHover3</texture>
+	<texture>BasicHomeBackgroundImages\#menuItemHover3</texture>
     <shouldCache>true</shouldCache>
   </control>
   <control>
@@ -69,11 +61,9 @@
     <posY>0</posY>
     <width>1920</width>
     <height>1080</height>
-    <visible>Control.HasFocus(6)</visible>
+    <visible>Control.HasFocus(6)|Control.HasFocus(901)|Control.HasFocus(902)|Control.HasFocus(903)|Control.HasFocus(904)|Control.HasFocus(905)</visible>
     <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
-		<texture>BasicHomeBackgroundImages\#menuItemHover4</texture>
+	<texture>BasicHomeBackgroundImages\#menuItemHover4</texture>
     <shouldCache>true</shouldCache>
   </control>
   <control>
@@ -84,11 +74,9 @@
     <posY>0</posY>
     <width>1920</width>
     <height>1080</height>
-    <visible>Control.HasFocus(7)</visible>
+    <visible>Control.HasFocus(7)|Control.HasFocus(1001)|Control.HasFocus(1002)|Control.HasFocus(1003)|Control.HasFocus(1004)|Control.HasFocus(1005)</visible>
     <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
-		<texture>BasicHomeBackgroundImages\#menuItemHover5</texture>
+	<texture>BasicHomeBackgroundImages\#menuItemHover5</texture>
     <shouldCache>true</shouldCache>
   </control>
    <control>
@@ -99,11 +87,9 @@
     <posY>0</posY>
     <width>1920</width>
     <height>1080</height>
-    <visible>Control.HasFocus(8)</visible>
+    <visible>Control.HasFocus(8)|Control.HasFocus(1101)|Control.HasFocus(1102)|Control.HasFocus(1103)|Control.HasFocus(1104)|Control.HasFocus(1105)</visible>
     <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
-		<texture>BasicHomeBackgroundImages\#menuItemHover6</texture>
+	<texture>BasicHomeBackgroundImages\#menuItemHover6</texture>
     <shouldCache>true</shouldCache>
   </control>
   <control>
@@ -114,11 +100,9 @@
     <posY>0</posY>
     <width>1920</width>
     <height>1080</height>
-    <visible>Control.HasFocus(9)</visible>
+    <visible>Control.HasFocus(9)|Control.HasFocus(1201)|Control.HasFocus(1202)|Control.HasFocus(1203)|Control.HasFocus(1204)|Control.HasFocus(1205)</visible>
     <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
-		<texture>BasicHomeBackgroundImages\#menuItemHover7</texture>
+	<texture>BasicHomeBackgroundImages\#menuItemHover7</texture>
     <shouldCache>true</shouldCache>
   </control>
 </controls>

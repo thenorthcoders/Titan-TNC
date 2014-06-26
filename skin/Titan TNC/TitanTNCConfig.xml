@@ -90,6 +90,14 @@
 			<onright>6101</onright>
 			<onfocus>#(skin.setstring('#skin.setting.focus','tvseries'))</onfocus>
 		</control>
+		<control Style="SettingsButton">
+			<description>Skin settings</description>
+			<type>button</type>
+			<id>7000</id>
+			<label>BasicHome</label>
+			<onright>7101</onright>
+			<onfocus>#(skin.setstring('#skin.setting.focus','basichome'))</onfocus>
+		</control>
 	</control>
 	<!--            :: Moving Pictures ::           	 -->
 	<control>
@@ -174,6 +182,36 @@
 			<onup>6101</onup>
 			<ondown>6101</ondown>
 		</control>
+	</control>
+	<!--            :: BasicHome ::           	 -->
+	<control>
+    <description>group element</description>
+    <type>group</type>
+	  <animation effect="fade" time="150">WindowOpen</animation>
+	  <animation effect="fade" time="150">WindowClose</animation>
+    <dimColor>0xffffffff</dimColor>
+		<visible>string.equals(#skin.setting.focus,basichome)</visible>
+    <control Style="SettingsButtonMedium">
+			<description>BasicHome layouts</description>
+			<type>menubutton</type>
+			<id>7101</id>
+			<posX>655</posX>
+			<posY>366</posY>
+			<mode>dialoglist</mode>
+			<dialogTitle>Choose BasicHome Layout</dialogTitle>
+			<valueTextInButton>yes</valueTextInButton>
+			<valuePrefixText>BasicHome Layout: </valuePrefixText>
+			<onclick>#(skin.setstring('#skin.layout.basichome',#selectedlabel7101))</onclick>
+			<binding>#skin.layout.basichome</binding>
+			<subitems>
+			 <subitem>default</subitem>
+			 <subitem>lite</subitem>
+			</subitems>
+			<onleft>7000</onleft>
+			<onright>7101</onright>
+			<onup>7102</onup>
+			<ondown>7102</ondown>
+		</control>   
 	</control>
 </controls>
 </window>

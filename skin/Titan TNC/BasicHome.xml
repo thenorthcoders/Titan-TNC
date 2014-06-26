@@ -19,19 +19,17 @@
 <rememberLastFocusedControl>yes</rememberLastFocusedControl>
 <controls>
   <include>BasicHomeDefines.xml</include>
-  <include>Background.xml</include>
   <include>BasicHomeFanartHandler.xml</include>
+  <include>BasicHomeHover.xml</include>
 	<!--				:: lite layout ::            -->
-  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHomeHover.xml</include>
-  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHome.recentlyaddedMoviesLite.xml</include>
-  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHome.recentlyaddedRecordingsLite.xml</include>
-  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHome.recentlyaddedSeriesLite.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHome\lite\recentlyaddedMovies.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHome\lite\recentlyaddedRecordings.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHome\lite\recentlyaddedSeries.xml</include>
   
 	<!--				:: default layout ::            -->
-  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHomeHover.xml</include>
-  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHome.recentlyaddedMoviesDefault.xml</include>
-  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHome.recentlyaddedMusicDefault.xml</include>
-  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHome.recentlyaddedSeriesDefault.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHome\default\recentlyaddedMovies.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHome\default\recentlyaddedRecordings.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHome\default\recentlyaddedSeries.xml</include>
   <control>
     <description>Background Overlay</description>
     <type>image</type>
@@ -47,11 +45,35 @@
   </control>
   <import>common.time.xml</import>
 	<!--				:: lite layout ::            -->
-  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHomeLite.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'lite'))">BasicHome\lite\common.xml</include>
+
+  <include condition="#(and(eq(#submenu0.ItemName0,''),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton1.xml</include>
+  <include condition="#(and(not(eq(#submenu0.ItemName0,'')),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton1sub.xml</include>
+
+  <include condition="#(and(eq(#submenu1.ItemName0,''),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton2.xml</include>
+  <include condition="#(and(not(eq(#submenu1.ItemName0,'')),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton2sub.xml</include>
+
+  <include condition="#(and(eq(#submenu2.ItemName0,''),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton3.xml</include>
+  <include condition="#(and(not(eq(#submenu2.ItemName0,'')),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton3sub.xml</include>
+
+  <include condition="#(and(eq(#submenu3.ItemName0,''),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton4.xml</include>
+  <include condition="#(and(not(eq(#submenu3.ItemName0,'')),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton4sub.xml</include>
+
+  <include condition="#(and(eq(#submenu4.ItemName0,''),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton5.xml</include>
+  <include condition="#(and(not(eq(#submenu4.ItemName0,'')),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton5sub.xml</include>
+
+  <include condition="#(and(eq(#submenu5.ItemName0,''),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton6.xml</include>
+  <include condition="#(and(not(eq(#submenu5.ItemName0,'')),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton6sub.xml</include>
+
+  <include condition="#(and(eq(#submenu6.ItemName0,''),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton7.xml</include>
+  <include condition="#(and(not(eq(#submenu6.ItemName0,'')),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton7sub.xml</include>
+
+  <include condition="#(and(eq(#submenu7.ItemName0,''),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton8.xml</include>
+  <include condition="#(and(not(eq(#submenu7.ItemName0,'')),eq(#skin.layout.basichome,'lite')))">BasicHome\lite\TileButton8sub.xml</include>
   
 	<!--				:: default layout ::            -->
-  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHomeDefault.xml</include>
-  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHomeSubmenuDefault.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHome\default\common.xml</include>
+  <include condition="#(eq(#skin.layout.basichome,'default'))">BasicHome\default\submenu.xml</include>
 	<control>
     <description>exit menu button</description>
     <id>0</id>

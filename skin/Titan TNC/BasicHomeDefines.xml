@@ -27,22 +27,41 @@
 <define property="true" evaluateNow="true">#menuItemTileImage5:#(iif(neq(string.format('{0}',#menuItemTileImage5),''),#menuItemTileImage5,'dummy'))</define>
 <define property="true" evaluateNow="true">#menuItemTileImage6:#(iif(neq(string.format('{0}',#menuItemTileImage6),''),#menuItemTileImage6,'dummy'))</define>
 <define property="true" evaluateNow="true">#menuItemTileImage7:#(iif(neq(string.format('{0}',#menuItemTileImage7),''),#menuItemTileImage7,'dummy'))</define>
-<define property="true" evaluateNow="true">#menuItemHover0:#(iif(neq(string.format('{0}',#menuItemHover0),''),#menuItemHover0,''))</define>
-<define property="true" evaluateNow="true">#menuItemHover1:#(iif(neq(string.format('{0}',#menuItemHover1),''),#menuItemHover1,''))</define>
-<define property="true" evaluateNow="true">#menuItemHover2:#(iif(neq(string.format('{0}',#menuItemHover2),''),#menuItemHover2,''))</define>
-<define property="true" evaluateNow="true">#menuItemHover3:#(iif(neq(string.format('{0}',#menuItemHover3),''),#menuItemHover3,''))</define>
-<define property="true" evaluateNow="true">#menuItemHover4:#(iif(neq(string.format('{0}',#menuItemHover4),''),#menuItemHover4,''))</define>
-<define property="true" evaluateNow="true">#menuItemHover5:#(iif(neq(string.format('{0}',#menuItemHover5),''),#menuItemHover5,''))</define>
-<define property="true" evaluateNow="true">#menuItemHover6:#(iif(neq(string.format('{0}',#menuItemHover6),''),#menuItemHover6,''))</define>
-<define property="true" evaluateNow="true">#menuItemHover7:#(iif(neq(string.format('{0}',#menuItemHover7),''),#menuItemHover7,''))</define>
+<define property="true" evaluateNow="true">#menuItemHover0:#(iif(neq(string.format('{0}',#menuItemHover0),''),#menuItemHover0,'default.png'))</define>
+<define property="true" evaluateNow="true">#menuItemHover1:#(iif(neq(string.format('{0}',#menuItemHover1),''),#menuItemHover1,'default.png'))</define>
+<define property="true" evaluateNow="true">#menuItemHover2:#(iif(neq(string.format('{0}',#menuItemHover2),''),#menuItemHover2,'default.png'))</define>
+<define property="true" evaluateNow="true">#menuItemHover3:#(iif(neq(string.format('{0}',#menuItemHover3),''),#menuItemHover3,'default.png'))</define>
+<define property="true" evaluateNow="true">#menuItemHover4:#(iif(neq(string.format('{0}',#menuItemHover4),''),#menuItemHover4,'default.png'))</define>
+<define property="true" evaluateNow="true">#menuItemHover5:#(iif(neq(string.format('{0}',#menuItemHover5),''),#menuItemHover5,'default.png'))</define>
+<define property="true" evaluateNow="true">#menuItemHover6:#(iif(neq(string.format('{0}',#menuItemHover6),''),#menuItemHover6,'default.png'))</define>
+<define property="true" evaluateNow="true">#menuItemHover7:#(iif(neq(string.format('{0}',#menuItemHover7),''),#menuItemHover7,'default.png'))</define>
 
 
-<!-- :: Submenu :: -->
+<!-- :: Submenus :: -->
 
 <define property="true" evaluateNow="true">#submenu0.ItemName0:#(iif(neq(string.format('{0}',#submenu0.ItemName0),''),#submenu0.ItemName0,''))</define>
 <define property="true" evaluateNow="true">#submenu0.ItemName1:#(iif(neq(string.format('{0}',#submenu0.ItemName1),''),#submenu0.ItemName1,''))</define>
+<define property="true" evaluateNow="true">#submenu0.ItemName2:#(iif(neq(string.format('{0}',#submenu0.ItemName2),''),#submenu0.ItemName2,''))</define>
+<define property="true" evaluateNow="true">#submenu0.ItemName3:#(iif(neq(string.format('{0}',#submenu0.ItemName3),''),#submenu0.ItemName3,''))</define>
+<define property="true" evaluateNow="true">#submenu0.ItemName4:#(iif(neq(string.format('{0}',#submenu0.ItemName4),''),#submenu0.ItemName4,''))</define>
+
 <define property="true" evaluateNow="true">#submenu1.ItemName0:#(iif(neq(string.format('{0}',#submenu1.ItemName0),''),#submenu1.ItemName0,''))</define>
 <define property="true" evaluateNow="true">#submenu1.ItemName1:#(iif(neq(string.format('{0}',#submenu1.ItemName1),''),#submenu1.ItemName1,''))</define>
+<define property="true" evaluateNow="true">#submenu1.ItemName2:#(iif(neq(string.format('{0}',#submenu1.ItemName2),''),#submenu1.ItemName2,''))</define>
+<define property="true" evaluateNow="true">#submenu1.ItemName3:#(iif(neq(string.format('{0}',#submenu1.ItemName3),''),#submenu1.ItemName3,''))</define>
+<define property="true" evaluateNow="true">#submenu1.ItemName4:#(iif(neq(string.format('{0}',#submenu1.ItemName4),''),#submenu1.ItemName4,''))</define>
+
+<define property="true" evaluateNow="true">#submenu2.ItemName0:#(iif(neq(string.format('{0}',#submenu2.ItemName0),''),#submenu2.ItemName0,''))</define>
+<define property="true" evaluateNow="true">#submenu2.ItemName1:#(iif(neq(string.format('{0}',#submenu2.ItemName1),''),#submenu2.ItemName1,''))</define>
+<define property="true" evaluateNow="true">#submenu2.ItemName2:#(iif(neq(string.format('{0}',#submenu2.ItemName2),''),#submenu2.ItemName2,''))</define>
+<define property="true" evaluateNow="true">#submenu2.ItemName3:#(iif(neq(string.format('{0}',#submenu2.ItemName3),''),#submenu2.ItemName3,''))</define>
+<define property="true" evaluateNow="true">#submenu2.ItemName4:#(iif(neq(string.format('{0}',#submenu2.ItemName4),''),#submenu2.ItemName4,''))</define>
+
+<define property="true" evaluateNow="true">#submenu3.ItemName0:#(iif(neq(string.format('{0}',#submenu3.ItemName0),''),#submenu3.ItemName0,''))</define>
+<define property="true" evaluateNow="true">#submenu3.ItemName1:#(iif(neq(string.format('{0}',#submenu3.ItemName1),''),#submenu3.ItemName1,''))</define>
+<define property="true" evaluateNow="true">#submenu3.ItemName2:#(iif(neq(string.format('{0}',#submenu3.ItemName2),''),#submenu3.ItemName2,''))</define>
+<define property="true" evaluateNow="true">#submenu3.ItemName3:#(iif(neq(string.format('{0}',#submenu3.ItemName3),''),#submenu3.ItemName3,''))</define>
+<define property="true" evaluateNow="true">#submenu3.ItemName4:#(iif(neq(string.format('{0}',#submenu3.ItemName4),''),#submenu3.ItemName4,''))</define>
 
 <!-- :: LatestMedia :: -->
 <define property="true" evaluateNow="true">#menuItemRecentMedia0:#(iif(neq(string.format('{0}',#menuItemRecentMedia0),''),#menuItemRecentMedia0,'none'))</define>

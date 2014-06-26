@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+<controls>
+  <!--            :: TILE 3 ::            -->
+  <control>
+    <description>group element</description>
+    <type>group</type>
+    <animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="250">WindowClose</animation>
+    <dimColor>0xffffffff</dimColor>
+    <control>
+      <description>Tile Button 3</description>
+      <type>button</type>
+      <id>4</id>
+      <posX>971</posX>
+      <posY>583</posY>
+      <width>441</width>
+      <height>271</height>
+      <textureFocus>BasicHome\lite\label_overlay.png</textureFocus>
+      <textureNoFocus>BasicHome\lite\label_overlay.png</textureNoFocus>
+      <label>#menuItemName2</label>
+      <font>TitanLight20</font>
+      <textcolor>FFFFFF</textcolor>
+      <textalign>center</textalign>   
+      <textcolorNoFocus>FFFFFFFF</textcolorNoFocus>
+      <hyperlink>#menuItemHyperlink2</hyperlink>
+      <onfocus>
+        #(skin.setstring('#skin.currentbutton','4'))
+        #(skin.setstring('#skin.lastbutton','3'))
+        #(skin.setstring('#skin.nextbutton','5'))
+        #(skin.setstring('#skin.recentMedia',string.format('{0}',#menuItemRecentMedia2)))
+        #(skin.setstring('#skin.currentHover',string.format('{0}',#menuItemHover2)))
+      </onfocus>
+      <textYOff>102</textYOff>
+      <onright>5</onright>
+      <onleft>3</onleft>
+      <onup>200200</onup>
+      <ondown>12</ondown>
+      <animation effect="fade" time="250" start="100" end="0" condition="control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)">conditional</animation>
+      <animation effect="slide" start="-1836" end="0" time="600">visiblechange</animation>
+      <visible allowhiddenfocus="true">![control.HasFocus(6)|control.HasFocus(7)|control.HasFocus(8)|control.HasFocus(9)]</visible> 
+    </control>
+  </control>
+</controls>
+</window>

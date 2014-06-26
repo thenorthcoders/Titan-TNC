@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+<controls>
+  <!--            :: TILE 3 ::            -->
+  <control>
+    <description>group element</description>
+    <type>group</type>
+    <animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="250">WindowClose</animation>
+    <dimColor>0xffffffff</dimColor>
+    <control>
+      <description>Tile Button 3</description>
+      <type>button</type>
+      <id>4</id>
+      <posX>971</posX>
+      <posY>583</posY>
+      <width>441</width>
+      <height>271</height>
+      <textureFocus>BasicHome\lite\label_overlay.png</textureFocus>
+      <textureNoFocus>BasicHome\lite\label_overlay.png</textureNoFocus>
+      <label>#menuItemName2</label>
+      <font>TitanLight20</font>
+      <textcolor>FFFFFF</textcolor>
+      <textalign>center</textalign>   
+      <textcolorNoFocus>FFFFFFFF</textcolorNoFocus>
+      <onclick>#(skin.setfocus(cint(#currentmoduleid), 701))</onclick>
+      <onfocus>
+        #(skin.setstring('#skin.currentbutton','4'))
+        #(skin.setstring('#skin.lastbutton','3'))
+        #(skin.setstring('#skin.nextbutton','5'))
+        #(skin.setstring('#skin.recentMedia',string.format('{0}',#menuItemRecentMedia2)))
+        #(skin.setstring('#skin.currentHover',string.format('{0}',#menuItemHover2)))
+      </onfocus>
+      <textYOff>102</textYOff>
+      <onright>5</onright>
+      <onleft>3</onleft>
+      <onup>200200</onup>
+      <ondown>12</ondown>
+      <animation effect="fade" time="250" start="100" end="0" condition="control.hasfocus(12)|control.hasfocus(13)|control.hasfocus(14)">conditional</animation>
+      <animation effect="fade" time="0" start="100" end="0" condition="control.hasfocus(701)|control.hasfocus(702)|control.hasfocus(703)|control.hasfocus(704)|control.hasfocus(705)">conditional</animation> 
+      <animation effect="slide" start="-1836" end="0" time="600">visiblechange</animation>
+      <visible allowhiddenfocus="true">![control.HasFocus(6)|control.HasFocus(7)|control.HasFocus(8)|control.HasFocus(9)]</visible>    
+    </control>
+  </control>
+  <!-- :: Background Submenu:: -->
+  <control>
+    <description>SUBMENU BACKGROUND</description>
+    <type>image</type>
+    <id>599</id>
+    <posX>961</posX>
+    <posY>607</posY>
+    <width>471</width>
+    <height>271</height>
+    <texture>BasicHome\lite\submenu_bg.png</texture>
+    <animation effect="zoom" start="1,1" end="100,100" time="200">visible</animation>
+    <animation effect="fade" time="250">visiblechange</animation>
+    <animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="250">WindowClose</animation>
+    <visible>[Control.HasFocus(701) | Control.HasFocus(702) | Control.HasFocus(703) | Control.HasFocus(704) | Control.HasFocus(705)]</visible>
+  </control>
+  <!-- :: Submenu Buttons :: -->
+  <control>
+    <id>700</id>
+    <description>submenu group</description>
+    <type>group</type>
+    <layout>StackLayout(0,Vertical, true)</layout>
+    <dimColor>ffffffff</dimColor>
+    <defaultcontrol>601</defaultcontrol>
+    <animation effect="fade" time="350">visiblechange</animation>
+    <animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="250">WindowClose</animation>
+    <posX>1011</posX>
+    <posY>555</posY>
+    <width>200</width>
+    <height>700</height>
+      <control>
+        <id>701</id>
+        <type>button</type>
+        <height>42</height>
+        <width>800</width>
+        <label>#submenu2.ItemName0</label>
+        <hyperlink>#submenu2.ItemHyperlink0</hyperlink>
+        <font>font12</font>
+        <textcolor>ffffffff</textcolor>
+        <textcolorNoFocus>ff000000</textcolorNoFocus>
+        <textureFocus>-</textureFocus>
+        <textureNoFocus>-</textureNoFocus>
+        <textalign>left</textalign>
+        <textXOff>0</textXOff>
+        <textYOff>80</textYOff>
+        <onleft>3</onleft>
+        <onright>5</onright>
+        <ondown>702</ondown>
+        <onup>701</onup>
+        <visible allowhiddenfocus="true">[Control.HasFocus(701) | Control.HasFocus(702) | Control.HasFocus(703) | Control.HasFocus(704) | Control.HasFocus(705)]</visible>
+      </control>
+      <control>
+        <id>702</id>
+        <type>button</type>
+        <height>42</height>
+        <width>800</width>
+        <label>#submenu2.ItemName1</label>
+        <hyperlink>#submenuItem2.Hyperlink1</hyperlink>
+        <font>font12</font>
+        <textcolor>ffffffff</textcolor>
+        <textcolorNoFocus>ff000000</textcolorNoFocus>
+        <textureFocus>-</textureFocus>
+        <textureNoFocus>-</textureNoFocus>
+        <textalign>left</textalign>
+        <textXOff>0</textXOff>
+        <textYOff>80</textYOff>
+        <onleft>3</onleft>
+        <onright>5</onright>
+        <onup>701</onup>
+        <ondown>703</ondown>
+        <visible>!string.equals(#submenu2.ItemName1,)+[Control.HasFocus(701) | Control.HasFocus(702) | Control.HasFocus(703) | Control.HasFocus(704) | Control.HasFocus(705)]</visible>
+      </control>
+      <control>
+        <id>703</id>
+        <type>button</type>
+        <height>42</height>
+        <width>800</width>
+        <label>#submenu2.ItemName2</label>
+        <hyperlink>#submenuItem2.Hyperlink2</hyperlink>
+        <font>font12</font>
+        <textcolor>ffffffff</textcolor>
+        <textcolorNoFocus>ff000000</textcolorNoFocus>
+        <textureFocus>-</textureFocus>
+        <textureNoFocus>-</textureNoFocus>
+        <textalign>left</textalign>
+        <textXOff>0</textXOff>
+        <textYOff>80</textYOff>
+        <onleft>3</onleft>
+        <onright>5</onright>
+        <onup>702</onup>
+        <ondown>704</ondown>
+        <visible>!string.equals(#submenu2.ItemName2,)+[Control.HasFocus(701) | Control.HasFocus(702) | Control.HasFocus(703) | Control.HasFocus(704) | Control.HasFocus(705)]</visible>
+      </control>
+      <control>
+        <id>704</id>
+        <type>button</type>
+        <height>42</height>
+        <width>800</width>
+        <label>#submenu2.ItemName3</label>
+        <hyperlink>#submenuItem2.Hyperlink3</hyperlink>
+        <font>font12</font>
+        <textcolor>ffffffff</textcolor>
+        <textcolorNoFocus>ff000000</textcolorNoFocus>
+        <textureFocus>-</textureFocus>
+        <textureNoFocus>-</textureNoFocus>
+        <textalign>left</textalign>
+        <textXOff>0</textXOff>
+        <textYOff>80</textYOff>
+        <onleft>3</onleft>
+        <onright>5</onright>
+        <onup>703</onup>
+        <ondown>705</ondown>
+        <visible>!string.equals(#submenu2.ItemName3,)+[Control.HasFocus(701) | Control.HasFocus(702) | Control.HasFocus(703) | Control.HasFocus(704) | Control.HasFocus(705)]</visible>
+      </control>
+      <control>
+        <id>705</id>
+        <type>button</type>
+        <height>42</height>
+        <width>800</width>
+        <label>#submenu2.ItemName4</label>
+        <hyperlink>#submenuItem2.Hyperlink4</hyperlink>
+        <font>font12</font>
+        <textcolor>ffffffff</textcolor>
+        <textcolorNoFocus>ff000000</textcolorNoFocus>
+        <textureFocus>-</textureFocus>
+        <textureNoFocus>-</textureNoFocus>
+        <textalign>left</textalign>
+        <textXOff>0</textXOff>
+        <textYOff>80</textYOff>
+        <onleft>3</onleft>
+        <onright>5</onright>
+        <onup>704</onup>
+        <ondown>4</ondown>
+        <visible>!string.equals(#submenu2.ItemName4,)+[Control.HasFocus(701) | Control.HasFocus(702) | Control.HasFocus(703) | Control.HasFocus(704) | Control.HasFocus(705)]</visible>
+      </control>
+  </control>
+</controls>
+</window>
