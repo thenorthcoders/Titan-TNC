@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
-  <id>165101</id>
+  <id>166101</id>
   <defaultcontrol>3</defaultcontrol>
   <define>#header.label:#Titan.SkinSettingsUpdate</define>
   <allowoverlay>no</allowoverlay>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
-<id>165100</id>
+<id>166100</id>
 <defaultcontrol>5000</defaultcontrol>
 <define>#header.label:#(L(300120)) #(L(5))</define>
 <allowoverlay>no</allowoverlay>
