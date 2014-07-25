@@ -35,6 +35,8 @@
 		<texture>panel_settings_main.png</texture>
   	<animation effect="fade" time="150">WindowOpen</animation>
   	<animation effect="fade" time="150">WindowClose</animation>
+  	<animation effect="fade" time="150">visiblechange</animation>
+		<visible>control.hasfocus(5101)|control.hasfocus(5102)|control.hasfocus(6101)|control.hasfocus(6102)|control.hasfocus(7101)|control.hasfocus(7102)</visible>
 	</control>
   <control>
     <id>0</id>
@@ -56,18 +58,6 @@
 		<font>TitanLight20</font>
 	</control>
 	<control>
-		<type>label</type>
-		<id>1</id>
-		<posX>685</posX>
-		<posY>225</posY>
-		<width>800</width>
-		<label>-</label>
-		<textcolor>00b7ff</textcolor>
-		<font>TitanLight20</font>
-	  <animation effect="fade" time="150">WindowOpen</animation>
-	  <animation effect="fade" time="150">WindowClose</animation>
-	</control>
-	<control>
 		<description>buttons</description>
 		<type>group</type>
 		<posX>122</posX>
@@ -79,24 +69,24 @@
 			<type>button</type>
 			<id>5000</id>
 			<label>Moving Pictures</label>
-			<onright>5101</onright>
-			<onfocus>#(skin.setstring('#skin.setting.focus','movingpictures'))</onfocus>
+			<onright>5000</onright>
+			<onclick>#(skin.setfocus(166100,5101))</onclick>
 		</control>
 		<control Style="SettingsButton">
 			<description>Skin settings</description>
 			<type>button</type>
 			<id>6000</id>
 			<label>TV Series</label>
-			<onright>6101</onright>
-			<onfocus>#(skin.setstring('#skin.setting.focus','tvseries'))</onfocus>
+			<onright>6000</onright>
+			<onclick>#(skin.setfocus(166100,6101))</onclick>
 		</control>
 		<control Style="SettingsButton">
 			<description>Skin settings</description>
 			<type>button</type>
 			<id>7000</id>
 			<label>BasicHome</label>
-			<onright>7101</onright>
-			<onfocus>#(skin.setstring('#skin.setting.focus','basichome'))</onfocus>
+			<onright>7000</onright>
+			<onclick>#(skin.setfocus(166100,7101))</onclick>
 		</control>
 	</control>
 	<!--            :: Moving Pictures ::           	 -->
@@ -105,8 +95,22 @@
 		<type>group</type>
 		<animation effect="fade" time="150">WindowOpen</animation>
 		<animation effect="fade" time="150">WindowClose</animation>
+  	<animation effect="fade" time="150" delay="100">visible</animation>
+  	<animation effect="fade" time="0">hidden</animation>
 		<dimColor>0xffffffff</dimColor>
-		<visible>string.equals(#skin.setting.focus,movingpictures)</visible>
+		<visible>control.hasfocus(5101)|control.hasfocus(5102)</visible>
+		<control>
+			<type>label</type>
+			<id>1</id>
+			<posX>685</posX>
+			<posY>225</posY>
+			<width>800</width>
+			<label>Moving Pictures</label>
+			<textcolor>00b7ff</textcolor>
+			<font>TitanLight20</font>
+		  <animation effect="fade" time="150">WindowOpen</animation>
+		  <animation effect="fade" time="150">WindowClose</animation>
+		</control>
 		<control Style="SettingsButtonMedium">
 			<description>Detailview layout</description>
 			<type>menubutton</type>
@@ -155,10 +159,24 @@
 	<control>
     <description>group element</description>
     <type>group</type>
-	  <animation effect="fade" time="150">WindowOpen</animation>
-	  <animation effect="fade" time="150">WindowClose</animation>
+		<animation effect="fade" time="150">WindowOpen</animation>
+		<animation effect="fade" time="150">WindowClose</animation>
+  	<animation effect="fade" time="150" delay="100">visible</animation>
+  	<animation effect="fade" time="0">hidden</animation>
     <dimColor>0xffffffff</dimColor>
-		<visible>string.equals(#skin.setting.focus,tvseries)</visible>
+		<visible>control.hasfocus(6101)|control.hasfocus(6102)</visible>
+		<control>
+			<type>label</type>
+			<id>1</id>
+			<posX>685</posX>
+			<posY>225</posY>
+			<width>800</width>
+			<label>TV Series</label>
+			<textcolor>00b7ff</textcolor>
+			<font>TitanLight20</font>
+		  <animation effect="fade" time="150">WindowOpen</animation>
+		  <animation effect="fade" time="150">WindowClose</animation>
+		</control>
     <control Style="SettingsButtonMedium">
 			<description>Widebanner layouts</description>
 			<type>menubutton</type>
@@ -187,10 +205,24 @@
 	<control>
     <description>group element</description>
     <type>group</type>
-	  <animation effect="fade" time="150">WindowOpen</animation>
-	  <animation effect="fade" time="150">WindowClose</animation>
+		<animation effect="fade" time="150">WindowOpen</animation>
+		<animation effect="fade" time="150">WindowClose</animation>
+  	<animation effect="fade" time="150" delay="100">visible</animation>
+  	<animation effect="fade" time="0">hidden</animation>
     <dimColor>0xffffffff</dimColor>
-		<visible>string.equals(#skin.setting.focus,basichome)</visible>
+		<visible>control.hasfocus(7101)|control.hasfocus(7102)</visible>
+		<control>
+			<type>label</type>
+			<id>1</id>
+			<posX>685</posX>
+			<posY>225</posY>
+			<width>800</width>
+			<label>BasicHome</label>
+			<textcolor>00b7ff</textcolor>
+			<font>TitanLight20</font>
+		  <animation effect="fade" time="150">WindowOpen</animation>
+		  <animation effect="fade" time="150">WindowClose</animation>
+		</control>
     <control Style="SettingsButtonMedium">
 			<description>BasicHome layouts</description>
 			<type>menubutton</type>
