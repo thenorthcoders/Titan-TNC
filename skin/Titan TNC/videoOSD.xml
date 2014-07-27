@@ -155,9 +155,9 @@
       <description>Progress Bar</description>
       <type>tvprogress</type>
       <id>105</id>
-    	<posX>578</posX>
+    	<posX>590</posX>
     	<posY>909</posY>
-    	<width>758</width>
+    	<width>728</width>
     	<height>15</height>
       <toptexture>-</toptexture>
       <TextureOffsetY>0</TextureOffsetY>
