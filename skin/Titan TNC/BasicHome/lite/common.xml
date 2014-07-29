@@ -23,7 +23,7 @@
 	    <posY>578</posY>
 	    <width>511</width>
 	    <height>311</height>
-	    <texture>BasicHome\lite\focus.png</texture>
+	    <texture>BasicHome\lite\focus\#skin.background.png</texture>
 			<animation effect="slide" start="0" end="457" time="150" condition="string.equals(#skin.lastbutton,2)+string.equals(#skin.nextbutton,4)">conditional</animation>
 			<animation effect="slide" start="0" end="917" time="150" condition="string.equals(#skin.lastbutton,3)+string.equals(#skin.nextbutton,5)">conditional</animation>
 			<animation effect="slide" start="0" end="1375" time="150" condition="string.equals(#skin.lastbutton,4)+string.equals(#skin.nextbutton,2)">conditional</animation>
@@ -43,7 +43,7 @@
 	    <posY>578</posY>
 	    <width>511</width>
 	    <height>311</height>
-	    <texture>BasicHome\lite\focus.png</texture>
+	    <texture>BasicHome\lite\focus\#skin.background.png</texture>
 			<animation effect="slide" start="0" end="457" time="150" condition="string.equals(#skin.lastbutton,6)+string.equals(#skin.nextbutton,8)">conditional</animation>
 			<animation effect="slide" start="0" end="917" time="150" condition="string.equals(#skin.lastbutton,7)+string.equals(#skin.nextbutton,9)">conditional</animation>
 			<animation effect="slide" start="0" end="1375" time="150" condition="string.equals(#skin.lastbutton,8)+string.equals(#skin.nextbutton,2)">conditional</animation>

@@ -594,7 +594,7 @@
 	    <posY>318</posY>
 	    <width>663</width>
 	    <height>311</height>
-	    <texture>BasicHome\default\focus.png</texture>
+	    <texture>BasicHome\default\focus\#skin.background.png</texture>
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(2)">conditional</animation>
       <animation effect="fade" time="250" delay="200" condition="control.hasfocus(2)">conditional</animation>
 			<animation effect="fade" time="250" delay="250">WindowOpen</animation>
@@ -609,7 +609,7 @@
 	    <posY>578</posY>
       <width>663</width>
       <height>311</height>
-      <texture>BasicHome\default\focus.png</texture>                     
+	    <texture>BasicHome\default\focus\#skin.background.png</texture>                
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(5)">conditional</animation>
       <animation effect="fade" time="250" delay="200" condition="control.hasfocus(5)">conditional</animation>
 			<animation effect="fade" time="250" delay="250">WindowOpen</animation>
@@ -624,7 +624,7 @@
 	    <posY>318</posY>
       <width>663</width>
       <height>311</height>
-      <texture>BasicHome\default\focus.png</texture>                     
+	    <texture>BasicHome\default\focus\#skin.background.png</texture>                  
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(3)">conditional</animation>
       <animation effect="fade" time="250" delay="200" condition="control.hasfocus(3)">conditional</animation>
 			<animation effect="fade" time="250" delay="250">WindowOpen</animation>
@@ -639,7 +639,7 @@
 	    <posY>578</posY>
       <width>663</width>
       <height>311</height>
-      <texture>BasicHome\default\focus.png</texture>                     
+	    <texture>BasicHome\default\focus\#skin.background.png</texture>                 
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(6)">conditional</animation>
       <animation effect="fade" time="250" delay="200" condition="control.hasfocus(6)">conditional</animation>
 			<animation effect="fade" time="250" delay="250">WindowOpen</animation>
@@ -654,7 +654,7 @@
 	    <posY>318</posY>
       <width>663</width>
       <height>311</height>
-      <texture>BasicHome\default\focus.png</texture>                     
+	    <texture>BasicHome\default\focus\#skin.background.png</texture>                   
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(4)">conditional</animation>
       <animation effect="fade" time="250" delay="200" condition="control.hasfocus(4)">conditional</animation>
 			<animation effect="fade" time="250" delay="250">WindowOpen</animation>
