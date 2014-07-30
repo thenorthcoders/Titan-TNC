@@ -69,6 +69,7 @@
 				<onleft>10</onleft>
 				<onup>3</onup>
 				<ondown>3</ondown>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 
 			<control>
@@ -91,6 +92,7 @@
 				<onleft>10</onleft>
 				<onup>2</onup>
 				<ondown>2</ondown>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 
 		</control>

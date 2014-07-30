@@ -189,6 +189,7 @@
 						<onleft>50</onleft>
 	          <ondown>3</ondown>
 	          <onup>66615</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>Sort</description>
@@ -205,6 +206,7 @@
 						<offsetSortButtonY>27</offsetSortButtonY>
 						<onright>50</onright>
 						<onleft>50</onleft>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>Switch View</description>
@@ -224,6 +226,7 @@
 						<onright>50</onright>
 						<onleft>50</onleft>
 		        <ondown>20</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
           <control>
           	<description>Empty button</description>
@@ -251,6 +254,7 @@
 						<onright>50</onright>
 						<onleft>50</onleft>
 		        <onup>5</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>My Playlists</description>
@@ -267,6 +271,7 @@
 						<onleft>50</onleft>
 						<onup>20</onup>
 						<ondown>7</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
           <control>
           	<description>Empty button</description>
@@ -294,7 +299,8 @@
 						<onleft>50</onleft>
             <onup>9</onup>
             <ondown>66610</ondown>
-          </control>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
+					</control>
 					<control>
 						<description>Video Settings</description>
 						<type>button</type>
@@ -311,6 +317,7 @@
 		        <onright>50</onright>
 						<onup>7</onup>
 						<ondown>66613</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
           <control>
           	<description>Empty button</description>
@@ -341,6 +348,7 @@
 						<onup>66610</onup>
 						<ondown>66614</ondown>
             <visible>plugin.isenabled(OnlineVideos)</visible> 
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 		      <control>
 		      	<description>Trakt</description>
@@ -359,7 +367,8 @@
 						<onleft>50</onleft>
 		        <onright>50</onright>
 		        <visible>plugin.isenabled(Trakt)</visible>
- 					</control>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
+					</control>
 		      <control>
 		      	<description>SubCentral</description>
 		        <type>button</type>
@@ -377,7 +386,8 @@
 						<onleft>50</onleft>
 		        <onright>50</onright>
 		        <visible>plugin.isenabled(SubCentral)</visible>
- 					</control>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
+					</control>
     		</control>
 		</control>
 </controls>

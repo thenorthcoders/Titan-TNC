@@ -141,6 +141,7 @@
 						<onleft>50</onleft>
 	          <ondown>3</ondown>
 	          <onup>21</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 		
 					<control>
@@ -159,6 +160,7 @@
 						<textYOff>16</textYOff>
 						<offsetSortButtonX>260</offsetSortButtonX>
 						<offsetSortButtonY>27</offsetSortButtonY>
+						<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 		
 					<control>
@@ -179,6 +181,7 @@
 						<onright>50</onright>
 						<onleft>50</onleft>
             <ondown>6</ondown>
+            <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 		
 					<control>
@@ -197,6 +200,7 @@
 						<textXOff>62</textXOff>
 						<textYOff>16</textYOff>
             <ondown>9</ondown>
+            <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					 
 		            <control>
@@ -226,7 +230,8 @@
 						<width>499</width>
 						<height>69</height>
 						<textXOff>62</textXOff>
-						<textYOff>16</textYOff>		
+						<textYOff>16</textYOff>	
+						<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>	
 					 </control>
 					 
 					 <control>
@@ -245,6 +250,7 @@
 						<height>69</height>
 						<textXOff>62</textXOff>
 						<textYOff>16</textYOff>		
+						<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					 </control>
 					 
 					 <control>
@@ -263,6 +269,7 @@
 						<height>69</height>
 						<textXOff>62</textXOff>
 						<textYOff>16</textYOff>		
+						<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 		</control>
 </control>

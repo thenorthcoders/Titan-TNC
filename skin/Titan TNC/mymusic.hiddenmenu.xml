@@ -189,6 +189,7 @@
 						<onleft>50</onleft>
 	          <ondown>5</ondown>
 	          <onup>15</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>Switch View</description>
@@ -207,6 +208,7 @@
 						<valuePrefixText>97</valuePrefixText>
 						<onright>50</onright>
 						<onleft>50</onleft>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>Sort</description>
@@ -224,6 +226,7 @@
 						<onright>50</onright>
 						<onleft>50</onleft>
 	          <ondown>9</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
           <control>
           	<description>Empty button</description>
@@ -251,6 +254,7 @@
 						<onright>50</onright>
 						<onleft>50</onleft>
 	          <onup>3</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>My Playlists</description>
@@ -267,6 +271,7 @@
 						<onleft>50</onleft>
             <onup>9</onup>
 	          <ondown>66610</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
           <control>
           	<description>Empty button</description>
@@ -295,6 +300,7 @@
             <onright>50</onright>
     				<onup>10</onup>
     				<ondown>11</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
     			</control>
           <control>
           	<description>Empty button</description>
@@ -323,6 +329,7 @@
 						<onleft>50</onleft>
 	          <onup>66610</onup>
 	          <ondown>18</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 							<control>
 				  <description>AutoDJ</description>
@@ -343,6 +350,7 @@
 				 <onright>50</onright>
 				 <textXOff>62</textXOff>
 				 <textYOff>16</textYOff>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 				</control>
 					<control>
 						<description>Search</description>
@@ -360,6 +368,7 @@
 						<onleft>50</onleft>
 	          <ondown>15</ondown>
 	          <onup>11</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 						<visible>plugin.isenabled(Search music)</visible>
 					</control>
 
@@ -379,6 +388,7 @@
 						<onleft>50</onleft>
 	          <ondown>2</ondown>
 	          <onup>200</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 	          <visible>plugin.isenabled(My Lyrics)</visible>
 			</control>
 		</control>

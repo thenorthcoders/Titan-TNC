@@ -128,7 +128,8 @@
 				<onleft>10000</onleft>				
 				<onright>10000</onright>
 				<label>Play Trailer</label>
-                <onup>66613</onup>				
+                <onup>66613</onup>	
+                <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>			
 			</control>
 
 			<control>
@@ -144,7 +145,8 @@
 				<onleft>10000</onleft>					
 				<onright>10000</onright>
 				<label>496</label>
-                <ondown>66610</ondown>				
+                <ondown>66610</ondown>	
+                <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>			
 			</control>
             
             <control>
@@ -175,6 +177,7 @@
                 <onright>50</onright>
 				<onup>107</onup>
 				<ondown>66612</ondown>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 			
 			<control>
@@ -193,6 +196,7 @@
                 <onright>50</onright>
 				<onup>66610</onup>
 				<ondown>104</ondown>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
             
             <control>
@@ -220,7 +224,8 @@
 				<onleft>10000</onleft>					
 				<onright>10000</onright>
                 <onup>66612</onup>
-				<label>210</label>				
+				<label>210</label>			
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>	
 			</control>
             
 			<control>
@@ -237,7 +242,8 @@
 				<onright>10000</onright>
 				<ondown>106</ondown>
 				<onup>104</onup>
-				<label>209</label>					
+				<label>209</label>		
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>			
 			</control>
 				
 			<control>
@@ -253,7 +259,8 @@
 				<onleft>10000</onleft>					
 				<onright>10000</onright>
 				<ondown>105</ondown>
-				<onup>103</onup>				
+				<onup>103</onup>		
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>		
 			</control>
 				
 			<control>
@@ -270,6 +277,7 @@
 				<onright>10000</onright>
 				<ondown>66613</ondown>
 				<onup>106</onup>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>            
                         
             <control>
@@ -289,6 +297,7 @@
 				<onright>10000</onright>
 				<onup>105</onup>
 				<ondown>109</ondown>    
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>	
         </control>
 </control>

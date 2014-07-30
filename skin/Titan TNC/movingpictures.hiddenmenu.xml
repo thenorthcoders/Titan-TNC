@@ -163,6 +163,7 @@
         <onright>50</onright>
         <ondown>14</ondown>
         <onup>66661</onup>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 
 			<control>
@@ -179,6 +180,7 @@
 				<onleft>50</onleft>
         <onright>50</onright>
         <ondown>4</ondown>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 				
 			<control>
@@ -195,6 +197,7 @@
 				<onleft>50</onleft>
         <onright>50</onright>
         <ondown>19</ondown>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
         
       <control>
@@ -212,6 +215,7 @@
         <onright>50</onright>
         <ondown>999</ondown>
         <onup>4</onup>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
      	</control>
 		
 		      <control>
@@ -230,6 +234,7 @@
         <ondown>15</ondown>
         <onleft>50</onleft>
         <onright>50</onright>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
 				        
 			<control>
@@ -247,6 +252,7 @@
         <onright>50</onright>
 				<ondown>66610</ondown>
 				<onup>999</onup>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
             
       <control>
@@ -277,6 +283,7 @@
         <onright>50</onright>
 				<onup>15</onup>
 				<ondown>66613</ondown>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 	            
       <control>
@@ -308,6 +315,7 @@
         <onright>50</onright>
 				<onup>66610</onup>
 				<ondown>66611</ondown>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>	
 
 			<control>
@@ -326,7 +334,8 @@
 				<onleft>50</onleft>
         <onright>50</onright>
 				<onup>66613</onup>
-				<ondown>66661</ondown>    
+				<ondown>66661</ondown>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
             
       <control>
@@ -344,6 +353,7 @@
         <ondown>3</ondown>
 				<onleft>50</onleft>
         <onright>50</onright>
+	      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
         <visible>plugin.isenabled(Trakt)</visible>
   		</control>
     </control>

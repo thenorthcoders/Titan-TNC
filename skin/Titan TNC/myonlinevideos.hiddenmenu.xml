@@ -150,6 +150,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
       <control>
         <description>Empty button</description>
@@ -177,6 +178,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
        <control>
         <description>select category</description>
@@ -198,6 +200,7 @@
         <textcolorNoFocus>FF393939</textcolorNoFocus>
         <textcolor>FFFFFFFF</textcolor>
   			<texturebg>hiddenmenu_item_selected.png</texturebg>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
       <control>
         <type>selectbutton</type>
@@ -219,6 +222,7 @@
         <textcolorNoFocus>FF393939</textcolorNoFocus>
         <textcolor>FFFFFFFF</textcolor>
   			<texturebg>hiddenmenu_item_selected.png</texturebg>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
       <control>
         <type>selectbutton</type>
@@ -240,6 +244,7 @@
         <textcolorNoFocus>FF393939</textcolorNoFocus>
         <textcolor>FFFFFFFF</textcolor>
   			<texturebg>hiddenmenu_item_selected.png</texturebg>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
       <control>
         <type>selectbutton</type>
@@ -261,6 +266,7 @@
         <textcolorNoFocus>FF393939</textcolorNoFocus>
         <textcolor>FFFFFFFF</textcolor>
   			<texturebg>hiddenmenu_item_selected.png</texturebg>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
       <control>
         <description>Empty button</description>
@@ -288,6 +294,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>               
       <control>
         <type>button</type>
@@ -304,6 +311,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control> 
       <control>
         <type>button</type>
@@ -321,6 +329,7 @@
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
         <hyperlink>4757</hyperlink>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
       <control>
         <description>MPEICONFIGURE:269bd257_7ce5_450a_b786_1c2834c81849</description>
@@ -336,6 +345,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
         <visible>string.equals(#mpei.269bd257_7ce5_450a_b786_1c2834c81849.isinstalled, true)</visible>
       </control>
       <control>
@@ -352,6 +362,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
         <visible>string.equals(#mpei.269bd257_7ce5_450a_b786_1c2834c81849.haveupdate, true)</visible>
       </control>
     </control>      

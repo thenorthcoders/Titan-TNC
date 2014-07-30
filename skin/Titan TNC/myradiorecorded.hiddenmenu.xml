@@ -131,6 +131,7 @@
 				<onleft>50</onleft>
 				<ondown>3</ondown>
 				<onup>1143</onup>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 			<control>
 				<type>sortbutton</type>
@@ -148,6 +149,7 @@
 				<textYOff>16</textYOff>
 				<offsetSortButtonX>260</offsetSortButtonX>
 				<offsetSortButtonY>27</offsetSortButtonY>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 			<control>
 				<description>All,Genre,Channel button</description>
@@ -167,6 +169,7 @@
 				<onright>50</onright>
 				<onleft>50</onleft>
 				<ondown>6</ondown>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 			<control>
 				<type>button</type>
@@ -184,6 +187,7 @@
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
 				<ondown>9</ondown>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 			<control>
 				<description>Empty button</description>
@@ -212,6 +216,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>		
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 			<control>
 				<type>button</type>
@@ -229,6 +234,7 @@
 				<height>64</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>		
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 			<control>
 				<type>button</type>
@@ -245,7 +251,8 @@
 				<width>499</width>
 				<height>64</height>
 				<textXOff>62</textXOff>
-				<textYOff>16</textYOff>		
+				<textYOff>16</textYOff>	
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>	
 			</control>
 		  <control>
 		    <description>Now playing button</description>
@@ -263,6 +270,7 @@
 				<height>64</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>	
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
 		  <control>
 		    <description>My Lyrics</description>
@@ -281,6 +289,7 @@
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>	
 		    <visible>plugin.isenabled(My Lyrics)</visible>
+		    <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
 		  <control>
 		    <description>Last.FM</description>
@@ -299,6 +308,7 @@
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>	
 		    <visible>plugin.isenabled(Last.fm Radio)</visible>
+		    <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
    		</control>
 		</control>
 	</control>

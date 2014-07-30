@@ -49,6 +49,7 @@
 						<onleft>50</onleft>
 	          <ondown>5</ondown>
 	          <onup>15</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 
 					<control>
@@ -70,6 +71,7 @@
 						<onleft>50</onleft>
 		        <ondown>3</ondown>
 	          <onup>2</onup>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 
 					<control>
@@ -91,6 +93,7 @@
 						<onleft>50</onleft>
 						<onup>5</onup>
 						<ondown>12</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 	
 					<control>
@@ -110,6 +113,7 @@
 						<onleft>50</onleft>
 						<onup>3</onup>
 						<ondown>13</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 	
 				<control>
@@ -130,6 +134,7 @@
 						<onleft>50</onleft>
 						<onup>12</onup>
 						<ondown>11</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 	
 					<control>
@@ -150,6 +155,7 @@
 						<onleft>50</onleft>
 						<onup>12</onup>
 						<ondown>9</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 	
 					<control>
@@ -170,6 +176,7 @@
 						<onleft>50</onleft>
 						<onup>11</onup>
 						<ondown>10</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 	
 					<control>
@@ -189,6 +196,7 @@
 						<onleft>50</onleft>
 						<onup>9</onup>
 						<ondown>200</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 	
 					<control>
@@ -209,6 +217,7 @@
 						<onleft>50</onleft>
 						<onup>10</onup>
 						<ondown>15</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 						<visible>plugin.isenabled(Search music)</visible>
 					</control>
 	
@@ -231,6 +240,7 @@
 						<onleft>50</onleft>
 						<onup>200</onup>
 						<ondown>2</ondown>
+	          <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 	          <visible>plugin.isenabled(My Lyrics)</visible>
 					</control>	
 

@@ -130,6 +130,7 @@
 					<onleft>50</onleft>
 	        <ondown>3</ondown>
 	        <onup>1143</onup>
+        	<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 				</control>
 				<control>
 					<type>sortbutton</type>
@@ -147,6 +148,7 @@
 					<textYOff>16</textYOff>	
 					<offsetSortButtonX>280</offsetSortButtonX>
 					<offsetSortButtonY>27</offsetSortButtonY>
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 				</control>
 		    <control>
          	<description>Empty button</description>
@@ -174,7 +176,8 @@
 					<width>499</width>
 					<height>64</height>
 					<textXOff>62</textXOff>
-					<textYOff>16</textYOff>				
+					<textYOff>16</textYOff>	
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>			
 				</control>
 				<control>
 					<description>Next</description>
@@ -191,7 +194,8 @@
 					<width>499</width>
 					<height>64</height>
 					<textXOff>62</textXOff>
-					<textYOff>16</textYOff>					
+					<textYOff>16</textYOff>		
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>			
 				</control>
 				<control>
 					<description>Radio Guide</description>
@@ -208,7 +212,8 @@
 					<width>499</width>
 					<height>64</height>
 					<textXOff>62</textXOff>
-					<textYOff>16</textYOff>				
+					<textYOff>16</textYOff>		
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>		
 				</control>
 				<control>
 					<description>Radio Recordings</description>
@@ -225,7 +230,8 @@
 					<width>499</width>
 					<height>64</height>
 					<textXOff>62</textXOff>
-					<textYOff>16</textYOff>				
+					<textYOff>16</textYOff>			
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>	
 				</control>
 				<control>
 					<description>Radio Search</description>
@@ -242,7 +248,8 @@
 					<width>499</width>
 					<height>64</height>
 					<textXOff>62</textXOff>
-					<textYOff>16</textYOff>			
+					<textYOff>16</textYOff>		
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>	
 				</control>
 		    <control>
 		      <description>Now playing button</description>
@@ -259,7 +266,8 @@
 					<width>499</width>
 					<height>64</height>
 					<textXOff>62</textXOff>
-					<textYOff>16</textYOff>	
+					<textYOff>16</textYOff>
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>	
       	</control>
 		    <control>
 		     	<description>My Lyrics</description>
@@ -277,6 +285,7 @@
 					<height>64</height>
 					<textXOff>62</textXOff>
 					<textYOff>16</textYOff>	
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 		      <visible>plugin.isenabled(My Lyrics)</visible>
       	</control>
 		    <control>
@@ -295,6 +304,7 @@
 					<height>64</height>
 					<textXOff>62</textXOff>
 					<textYOff>16</textYOff>	
+					<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 		      <visible>plugin.isenabled(Last.fm Radio)</visible>
    			</control>
 			</control>

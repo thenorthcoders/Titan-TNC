@@ -159,6 +159,7 @@
 						<onleft>50</onleft>
 		         <ondown>3</ondown>
 		         <onup>8</onup>
+        		<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>Sort</description>
@@ -177,6 +178,7 @@
 						<onleft>50</onleft>
 						<onup>2</onup>
 						<ondown>5</ondown>
+        		<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>Switch View</description>
@@ -197,6 +199,7 @@
 						<onleft>50</onleft>
 		        <ondown>6</ondown>
 		        <onup>3</onup>
+        		<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 	        <control>
 	         	<description>Empty button</description>
@@ -223,6 +226,7 @@
 						<onright>50</onright>
 						<onleft>50</onleft>
 			      <onup>5</onup>
+        		<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 					<control>
 						<description>Recursive Slideshow</description>
@@ -239,6 +243,7 @@
 						<onleft>50</onleft>
 			       <ondown>8</ondown>
 						<onup>6</onup>
+        		<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 					</control>
 			    <control>
 	         	<description>Empty button</description>
@@ -266,7 +271,8 @@
 						<onleft>50</onleft>
 			      <onup>7</onup>				
 			      <ondown>2</ondown>
-						<hyperlink>12</hyperlink>				
+						<hyperlink>12</hyperlink>
+        		<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>		
 					</control>				
 			</control>
 		</control>

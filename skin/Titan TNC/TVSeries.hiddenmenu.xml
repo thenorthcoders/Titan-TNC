@@ -192,6 +192,7 @@
 				<onright>50</onright>
         <ondown>5</ondown>
         <onup>66615</onup>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
             
       <control>
@@ -207,6 +208,7 @@
 				<label>Run Import</label>
 				<onleft>50</onleft>
 				<onright>50</onright>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
              
       <control>
@@ -222,6 +224,7 @@
 				<label>Change Layout</label>
 				<onleft>50</onleft>
 				<onright>50</onright>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
           
       <control>
@@ -238,6 +241,7 @@
 				<onleft>50</onleft>
 				<onright>50</onright>
 				<ondown>20</ondown>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
       </control>
             
       <control>
@@ -267,6 +271,7 @@
     	 <onleft>50</onleft>
     	 <onright>50</onright>
     	 <onup>4</onup>
+    	 <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
      </control>	
             
     <control>
@@ -283,6 +288,7 @@
     	<onleft>50</onleft>
     	<onright>50</onright>
     	<ondown>66610</ondown>
+    	<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
     </control>
                 
     <control>
@@ -313,6 +319,7 @@
       <onright>50</onright>
 			<onup>9</onup>
       <ondown>66614</ondown>
+      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 		</control>
             
      <control>
@@ -344,6 +351,7 @@
 			<onleft>50</onleft>
       <onright>50</onright>
 			<visible>plugin.isenabled(SubCentral)</visible>
+			<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
     </control>		
 					
     <control>
@@ -363,6 +371,7 @@
 			<onleft>50</onleft>
       <onright>50</onright>
       <visible>plugin.isenabled(Trakt)</visible>
+      <onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
     </control>
   </control>
 </control>

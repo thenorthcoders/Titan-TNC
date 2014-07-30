@@ -110,6 +110,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 
 			<control>
@@ -131,6 +132,7 @@
 				<height>69</height>
 				<textXOff>62</textXOff>
 				<textYOff>16</textYOff>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 			
 			<control>
@@ -149,6 +151,7 @@
 				<textYOff>16</textYOff>
 				<offsetSortButtonX>400</offsetSortButtonX>
 				<offsetSortButtonY>27</offsetSortButtonY>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 
 			<control>
@@ -168,6 +171,7 @@
 				<height>70</height>
 				<textXOff>66</textXOff>
 				<textYOff>17</textYOff>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>
 			</control>
 
 			<control>
@@ -187,7 +191,8 @@
 				<width>497</width>
 				<height>70</height>
 				<textXOff>66</textXOff>
-				<textYOff>17</textYOff>			
+				<textYOff>17</textYOff>
+				<onESC>#(skin.setfocus(cint(#currentmoduleid), 50))</onESC>			
 			</control>
 		
 	</control>
