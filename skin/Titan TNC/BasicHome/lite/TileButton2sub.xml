@@ -23,7 +23,8 @@
       <textcolor>FFFFFF</textcolor>
       <textalign>center</textalign>   
       <textcolorNoFocus>FFFFFFFF</textcolorNoFocus>
-      <onclick>#(skin.setfocus(cint(#currentmoduleid), 601))</onclick>
+      <hyperlink>#menuItemHyperlink1</hyperlink>
+      <oninfo>#(skin.setfocus(cint(#currentmoduleid), 601))</oninfo>
       <onfocus>
         #(skin.setstring('#skin.currentbutton','3'))
         #(skin.setstring('#skin.lastbutton','2'))
@@ -92,7 +93,8 @@
         <onleft>2</onleft>
         <onright>4</onright>
         <ondown>602</ondown>
-        <onup>601</onup>
+        <onup>605</onup>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 3))</onESC>
         <visible allowhiddenfocus="true">[Control.HasFocus(601) | Control.HasFocus(602) | Control.HasFocus(603) | Control.HasFocus(604) | Control.HasFocus(605)]</visible>
       </control>
       <control>
@@ -114,6 +116,7 @@
         <onright>4</onright>
         <onup>601</onup>
         <ondown>603</ondown>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 3))</onESC>
         <visible>!string.equals(#submenu1.ItemName1,)+[Control.HasFocus(601) | Control.HasFocus(602) | Control.HasFocus(603) | Control.HasFocus(604) | Control.HasFocus(605)]</visible>
       </control>
       <control>
@@ -156,6 +159,7 @@
         <onright>4</onright>
         <onup>603</onup>
         <ondown>605</ondown>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 3))</onESC>
         <visible>!string.equals(#submenu1.ItemName3,)+[Control.HasFocus(601) | Control.HasFocus(602) | Control.HasFocus(603) | Control.HasFocus(604) | Control.HasFocus(605)]</visible>
       </control>
       <control>
@@ -176,7 +180,8 @@
         <onleft>2</onleft>
         <onright>4</onright>
         <onup>604</onup>
-        <ondown>3</ondown>
+        <ondown>601</ondown>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 3))</onESC>
         <visible>!string.equals(#submenu1.ItemName4,)+[Control.HasFocus(601) | Control.HasFocus(602) | Control.HasFocus(603) | Control.HasFocus(604) | Control.HasFocus(605)]</visible>
       </control>
   </control>

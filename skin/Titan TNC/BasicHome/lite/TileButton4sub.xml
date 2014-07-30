@@ -23,7 +23,8 @@
       <textcolor>FFFFFF</textcolor>
       <textalign>center</textalign>   
       <textcolorNoFocus>FFFFFFFF</textcolorNoFocus>
-      <onclick>#(skin.setfocus(cint(#currentmoduleid), 801))</onclick>
+      <hyperlink>#menuItemHyperlink3</hyperlink>
+      <oninfo>#(skin.setfocus(cint(#currentmoduleid), 801))</oninfo>
       <onfocus>
         #(skin.setstring('#skin.currentbutton','5'))
         #(skin.setstring('#skin.lastbutton','4'))
@@ -93,7 +94,8 @@
         <onleft>4</onleft>
         <onright>2</onright>
         <ondown>802</ondown>
-        <onup>801</onup>
+        <onup>805</onup>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 5))</onESC>
         <visible allowhiddenfocus="true">[Control.HasFocus(801) | Control.HasFocus(802) | Control.HasFocus(803) | Control.HasFocus(804) | Control.HasFocus(805)]</visible>
       </control>
       <control>
@@ -115,6 +117,7 @@
         <onright>2</onright>
         <onup>801</onup>
         <ondown>803</ondown>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 5))</onESC>
         <visible>!string.equals(#submenu3.ItemName1,)+[Control.HasFocus(801) | Control.HasFocus(802) | Control.HasFocus(803) | Control.HasFocus(804) | Control.HasFocus(805)]</visible>
       </control>
       <control>
@@ -136,6 +139,7 @@
         <onright>2</onright>
         <onup>802</onup>
         <ondown>804</ondown>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 5))</onESC>
         <visible>!string.equals(#submenu3.ItemName2,)+[Control.HasFocus(801) | Control.HasFocus(802) | Control.HasFocus(803) | Control.HasFocus(804) | Control.HasFocus(805)]</visible>
       </control>
       <control>
@@ -157,6 +161,7 @@
         <onright>2</onright>
         <onup>803</onup>
         <ondown>805</ondown>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 5))</onESC>
         <visible>!string.equals(#submenu3.ItemName3,)+[Control.HasFocus(801) | Control.HasFocus(802) | Control.HasFocus(803) | Control.HasFocus(804) | Control.HasFocus(805)]</visible>
       </control>
       <control>
@@ -177,7 +182,8 @@
         <onleft>4</onleft>
         <onright>2</onright>
         <onup>704</onup>
-        <ondown>5</ondown>
+        <ondown>701</ondown>
+        <onESC>#(skin.setfocus(cint(#currentmoduleid), 5))</onESC>
         <visible>!string.equals(#submenu3.ItemName4,)+[Control.HasFocus(801) | Control.HasFocus(802) | Control.HasFocus(803) | Control.HasFocus(804) | Control.HasFocus(805)]</visible>
       </control>
   </control>
