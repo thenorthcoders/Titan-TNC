@@ -39,6 +39,7 @@
     <entry name="#skin.layout.movingpictures.details">default</entry>
     <entry name="#skin.layout.tvseries.widebanner">default</entry>
     <entry name="#skin.layout.basichome">default</entry>
+    <entry name="#skin.background">Vortex</entry>
     <entry name="#skin.currentbutton">2</entry>
     <entry name="#skin.background">blue</entry>
     <entry name="#submenu3.ItemParameter0">132</entry>
