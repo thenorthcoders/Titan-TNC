@@ -27,9 +27,8 @@
     <width>1920</width>
     <height>1080</height>
     <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,series)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
     <texture>#fanarthandler.tvseries.backdrop1.any</texture>
 	</control>
 	<control>
@@ -41,9 +40,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,series)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.tvseries.backdrop2.any</texture>
 	</control> 
 	<!--            :: Movies ::            -->
@@ -56,9 +54,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,movies)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.movingpicture.backdrop1.any</texture>
 	</control>
 	<control>
@@ -70,9 +67,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,movies)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.movingpicture.backdrop2.any</texture>
 	</control> 
 	<!--            :: Music ::            -->
@@ -85,9 +81,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,music)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.music.scraper.backdrop1.any</texture>
 	</control>
 	<control>
@@ -99,9 +94,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,music)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.music.scraper.backdrop2.any</texture>
 	</control> 
 	<!--            :: TV ::            -->
@@ -114,9 +108,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,tv)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.tv.userdef.backdrop1.any</texture>
 	</control>
 	<control>
@@ -128,9 +121,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,tv)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.tv.userdef.backdrop2.any</texture>
 	</control> 
 	<!--            :: Pictures ::            -->
@@ -143,9 +135,8 @@
     <width>1920</width>
     <height>1080</height>
     <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,pictures)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
     <texture>#fanarthandler.picture.userdef.backdrop1.any</texture>
 	</control>
 	<control>
@@ -157,9 +148,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,pictures)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.picture.userdef.backdrop2.any</texture>
 	</control> 
 	<!--            :: Plugins ::            -->
@@ -172,9 +162,8 @@
 		<width>1920</width>
 		<height>1080</height>
     <visible>control.isvisible(91919297) + string.equals(#skin.currentHover,plugins)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
 		<texture>#fanarthandler.plugins.userdef.backdrop1.any</texture>
 	</control>
 	<control>
@@ -186,9 +175,8 @@
     <width>1920</width>
     <height>1080</height>
     <visible>control.isvisible(91919298) + string.equals(#skin.currentHover,plugins)</visible>
-    <animation effect="fade" time="300">visiblechange</animation>
-		<animation effect="fade" time="250">WindowOpen</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="fade" time="300">visible</animation>
+      <animation effect="fade" time="300" delay="300">hidden</animation>
     <texture>#fanarthandler.plugins.userdef.backdrop2.any</texture>
 	</control>
 </controls>
