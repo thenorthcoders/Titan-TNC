@@ -81,7 +81,7 @@
         <height>42</height>
         <width>800</width>
         <label>#submenu2.ItemName0</label>
-        <hyperlink>#submenu2.itemHyperlink0</hyperlink>
+        <hyperlink>#submenu2.ItemHyperlink0</hyperlink>
         <hyperlinkParameter>#submenu2.ItemParameter0</hyperlinkParameter>
         <font>font12</font>
         <textcolor>ffffffff</textcolor>
