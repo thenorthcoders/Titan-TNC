@@ -24,6 +24,7 @@
       <textalign>center</textalign>   
       <textcolorNoFocus>FFFFFFFF</textcolorNoFocus>
       <hyperlink>#menuItemHyperlink1</hyperlink>
+      <hyperlinkParameter>#menuItemParameter1</hyperlinkParameter>
       <onfocus>
         #(skin.setstring('#skin.currentbutton','3'))
         #(skin.setstring('#skin.lastbutton','2'))

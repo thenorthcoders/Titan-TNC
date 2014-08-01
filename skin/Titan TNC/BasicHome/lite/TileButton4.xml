@@ -24,10 +24,13 @@
       <textalign>center</textalign>   
       <textcolorNoFocus>FFFFFFFF</textcolorNoFocus>
       <hyperlink>#menuItemHyperlink3</hyperlink>
+      <hyperlinkParameter>#menuItemParameter3</hyperlinkParameter>
       <onfocus>
         #(skin.setstring('#skin.currentbutton','5'))
         #(skin.setstring('#skin.lastbutton','4'))
         #(skin.setstring('#skin.nextbutton','2'))
+        #(skin.setstring('#skin.prevpage','2'))
+        #(skin.setstring('#skin.currentpage','1'))
         #(skin.setstring('#skin.recentMedia',string.format('{0}',#menuItemRecentMedia3)))
         #(skin.setstring('#skin.currentHover',string.format('{0}',#menuItemHover3)))
       </onfocus>

@@ -24,6 +24,7 @@
       <textalign>center</textalign>   
       <textcolorNoFocus>FFFFFFFF</textcolorNoFocus>
       <hyperlink>#menuItemHyperlink2</hyperlink>
+      <hyperlinkParameter>#menuItemParameter2</hyperlinkParameter>
       <oninfo>#(skin.setfocus(cint(#currentmoduleid), 701))</oninfo>
       <onfocus>
         #(skin.setstring('#skin.currentbutton','4'))
@@ -80,7 +81,8 @@
         <height>42</height>
         <width>800</width>
         <label>#submenu2.ItemName0</label>
-        <hyperlink>#submenu2.ItemHyperlink0</hyperlink>
+        <hyperlink>#submenu2.itemHyperlink0</hyperlink>
+        <hyperlinkParameter>#submenu2.ItemParameter0</hyperlinkParameter>
         <font>font12</font>
         <textcolor>ffffffff</textcolor>
         <textcolorNoFocus>ff000000</textcolorNoFocus>
@@ -102,7 +104,8 @@
         <height>42</height>
         <width>800</width>
         <label>#submenu2.ItemName1</label>
-        <hyperlink>#submenuItem2.Hyperlink1</hyperlink>
+        <hyperlink>#submenu2.ItemHyperlink1</hyperlink>
+        <hyperlinkParameter>#submenu2.ItemParameter1</hyperlinkParameter>
         <font>font12</font>
         <textcolor>ffffffff</textcolor>
         <textcolorNoFocus>ff000000</textcolorNoFocus>
@@ -124,7 +127,8 @@
         <height>42</height>
         <width>800</width>
         <label>#submenu2.ItemName2</label>
-        <hyperlink>#submenuItem2.Hyperlink2</hyperlink>
+        <hyperlink>#submenu2.ItemHyperlink2</hyperlink>
+        <hyperlinkParameter>#submenu2.ItemParameter2</hyperlinkParameter>
         <font>font12</font>
         <textcolor>ffffffff</textcolor>
         <textcolorNoFocus>ff000000</textcolorNoFocus>
@@ -146,7 +150,8 @@
         <height>42</height>
         <width>800</width>
         <label>#submenu2.ItemName3</label>
-        <hyperlink>#submenuItem2.Hyperlink3</hyperlink>
+        <hyperlink>#submenu2.ItemHyperlink3</hyperlink>
+        <hyperlinkParameter>#submenu2.ItemParameter3</hyperlinkParameter>
         <font>font12</font>
         <textcolor>ffffffff</textcolor>
         <textcolorNoFocus>ff000000</textcolorNoFocus>
@@ -168,7 +173,8 @@
         <height>42</height>
         <width>800</width>
         <label>#submenu2.ItemName4</label>
-        <hyperlink>#submenuItem2.Hyperlink4</hyperlink>
+        <hyperlink>#submenu2.ItemHyperlink4</hyperlink>
+        <hyperlinkParameter>#submenu2.ItemParameter4</hyperlinkParameter>
         <font>font12</font>
         <textcolor>ffffffff</textcolor>
         <textcolorNoFocus>ff000000</textcolorNoFocus>
